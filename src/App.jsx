@@ -24,7 +24,8 @@ export default function App() {
   const sidebarCollapsed = useSettingsStore(s => s.sidebarCollapsed);
 
   return (
-    <BrowserRouter>
+    <>
+      <BrowserRouter>
       <Background3D />
       <div className={`app-layout ${sidebarCollapsed ? 'sidebar-is-collapsed' : ''}`}>
         <Sidebar />
@@ -52,5 +53,6 @@ export default function App() {
       </div>
     </BrowserRouter>
     <VercelAnalytics />
+    </>
   );
 }
