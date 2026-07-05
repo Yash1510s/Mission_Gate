@@ -18,6 +18,7 @@ import Analytics from './pages/Analytics';
 import Settings from './pages/Settings';
 import Mocks from './pages/Mocks';
 import Calculator from './pages/Calculator';
+import { Analytics as VercelAnalytics } from '@vercel/analytics/react';
 
 export default function App() {
   const sidebarCollapsed = useSettingsStore(s => s.sidebarCollapsed);
@@ -50,5 +51,6 @@ export default function App() {
         <MobileNav />
       </div>
     </BrowserRouter>
+    <VercelAnalytics />
   );
 }
