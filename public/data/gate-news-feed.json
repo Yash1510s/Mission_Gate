@@ -1,0 +1,114 @@
+{
+  "feed": [
+    {
+      "id": "item-1",
+      "date": "2026-07-04",
+      "category": "PSU & Govt",
+      "title": "Indian Air Force (IAF) AFCAT 2026 Direct Entry via GATE Scorecard",
+      "summary": "The Indian Air Force has announced a special direct recruitment pathway for Engineering Officers in Technical Branches using GATE 2025 and GATE 2026 scorecards. Candidates with valid scores in CS, DA, ECE, ME, and EE can apply directly without written AFCAT exam.",
+      "sourceName": "Indian Air Force Official Portal",
+      "url": "https://afcat.cdac.in/AFCAT/",
+      "tags": ["Defence", "Direct Entry", "GATE Score", "Air Force"],
+      "verified": true
+    },
+    {
+      "id": "item-2",
+      "date": "2026-07-02",
+      "category": "Courses & Prep",
+      "title": "GATE Wallah (PW) Announces Free YouTube Revision Series for GATE 2027",
+      "summary": "Physics Wallah's GATE Wallah channel has confirmed that their comprehensive Crash Course and Practice Series for GATE 2027 CS & DA will begin streaming live from August 2026. Until then, students are advised to utilize the GATE 2026 crash course playlists.",
+      "sourceName": "GATE Wallah Official YouTube",
+      "url": "https://www.youtube.com/@GATEWallahbyPW",
+      "tags": ["Crash Course", "Free Lectures", "PW", "YouTube"],
+      "verified": true
+    },
+    {
+      "id": "item-3",
+      "date": "2026-06-28",
+      "category": "IIT / IISc",
+      "title": "IIT Bombay MS by Research & M.Tech TA/RA Winter Admissions Announced",
+      "summary": "IIT Bombay has released the notification for PhD and MS by Research admissions for the upcoming semester. GATE qualified candidates in Computer Science and Data Science (DA paper) are eligible for Research Assistantship (RA) positions with monthly stipend of ₹37,000.",
+      "sourceName": "IIT Bombay Academic Portal",
+      "url": "https://www.iitb.ac.in/newacadhome/toacademic.jsp",
+      "tags": ["IIT Bombay", "M.Tech", "MS by Research", "Stipend"],
+      "verified": true
+    },
+    {
+      "id": "item-4",
+      "date": "2026-06-24",
+      "category": "Private Jobs",
+      "title": "NVIDIA & Qualcomm R&D Hiring: Shortlisting via GATE CS & DA Scores",
+      "summary": "Leading semiconductor and AI research giants including NVIDIA India and Qualcomm have initiated off-campus R&D hardware/software internship drives, utilizing top percentile GATE CS and DA scorecards as a primary shortlisting criteria for AI/ML and Systems roles.",
+      "sourceName": "LinkedIn Tech Careers / Corporate Portals",
+      "url": "https://www.nvidia.com/en-in/about-nvidia/careers/",
+      "tags": ["NVIDIA", "Qualcomm", "Private R&D", "AI/ML Jobs"],
+      "verified": true
+    },
+    {
+      "id": "item-5",
+      "date": "2026-06-18",
+      "category": "PSU & Govt",
+      "title": "ONGC & IOCL Executive Trainee (Through GATE 2026) Shortlist Released",
+      "summary": "Oil and Natural Gas Corporation (ONGC) and Indian Oil (IOCL) have published the interview shortlist for Executive Trainees (Computer Science and Information Technology) based on GATE 2026 scores. Check your login dashboard for interview schedule.",
+      "sourceName": "ONGC India Official Website",
+      "url": "https://www.ongcindia.com/wps/wcm/connect/en/career/recruitment-notice/",
+      "tags": ["ONGC", "IOCL", "PSU Shortlist", "Executive Trainee"],
+      "verified": true
+    },
+    {
+      "id": "item-6",
+      "date": "2026-06-10",
+      "category": "IIT / IISc",
+      "title": "IISc Bangalore Expands M.Tech in Artificial Intelligence Seat Intake for GATE DA",
+      "summary": "Indian Institute of Science (IISc) Bangalore has announced a 30% increase in seat intake for its premier M.Tech in AI and Data Science programs specifically for aspirants appearing via the GATE DA (Data Science & Artificial Intelligence) paper.",
+      "sourceName": "IISc Admissions Portal",
+      "url": "https://admissions.iisc.ac.in/",
+      "tags": ["IISc Bangalore", "GATE DA", "Seat Hike", "AI Program"],
+      "verified": true
+    },
+    {
+      "id": "item-7",
+      "date": "2026-06-05",
+      "category": "General Alerts",
+      "title": "M.Tech / ME Stipend Hike Proposal Under Review by AICTE & MoE",
+      "summary": "The Ministry of Education and AICTE are reviewing a proposal to increase the monthly postgraduate scholarship (stipend) for GATE-qualified M.Tech/ME students in premier institutes from ₹12,400 to ₹18,000 starting academic year 2026-27.",
+      "sourceName": "AICTE Official Bulletin / Education Times",
+      "url": "https://www.aicte-india.org/",
+      "tags": ["Stipend Hike", "AICTE", "MoE", "Scholarship"],
+      "verified": true
+    },
+    {
+      "id": "item-8",
+      "date": "2026-05-28",
+      "category": "Courses & Prep",
+      "title": "NPTEL Launches New Semester Courses with IIT Certificate & GATE Mapping",
+      "summary": "NPTEL (National Programme on Technology Enhanced Learning) has opened enrollment for July-Dec 2026 semester courses in Deep Learning, Compiler Design, and Advanced Algorithms, directly mapped to GATE CS & DA syllabus.",
+      "sourceName": "NPTEL / SWAYAM Portal",
+      "url": "https://swayam.gov.in/nc_details/NPTEL",
+      "tags": ["NPTEL", "IIT Certification", "Free Courses", "SWAYAM"],
+      "verified": true
+    },
+    {
+      "id": "item-9",
+      "date": "2026-05-15",
+      "category": "PSU & Govt",
+      "title": "DRDO & BARC Scientist 'B' Recruitment Notice via GATE Score",
+      "summary": "Defence Research and Development Organisation (DRDO) RAC and Bhabha Atomic Research Centre (BARC) OCES/DGFS programs have announced upcoming notification dates for Scientist 'B' posts accepting GATE CS and DA scorecards.",
+      "sourceName": "DRDO RAC Portal / BARC Online Exam",
+      "url": "https://rac.gov.in/",
+      "tags": ["DRDO", "BARC", "Scientist B", "Research"],
+      "verified": true
+    },
+    {
+      "id": "item-10",
+      "date": "2026-05-01",
+      "category": "Private Jobs",
+      "title": "TCS Research & Innovation (R&I) Hiring Scientists via GATE Score",
+      "summary": "Tata Consultancy Services (TCS) Innovation Labs has opened applications for Research Scientist and Systems Engineer roles, offering special direct interview opportunities for candidates with top 500 AIR in GATE CS or DA.",
+      "sourceName": "TCS Careers Portal",
+      "url": "https://www.tcs.com/careers/india",
+      "tags": ["TCS Research", "Direct Interview", "AIR Top 500", "Private Tech"],
+      "verified": true
+    }
+  ]
+}

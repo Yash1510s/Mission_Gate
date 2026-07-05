@@ -1,0 +1,182 @@
+{
+  "cs": {
+    "label": "GATE CS",
+    "tag": "CS & IT",
+    "cls": "cs",
+    "sections": [
+      {
+        "name": "1. Engineering Mathematics",
+        "badge": "Em",
+        "groups": [
+          { "name": "Linear Algebra", "topics": ["Matrices & Operations", "Determinants", "Rank of a Matrix", "System of Linear Equations", "Vector Spaces", "Eigenvalues & Eigenvectors"] },
+          { "name": "Calculus", "topics": ["Limits, Continuity & Differentiability", "Maxima & Minima", "Definite & Indefinite Integration", "Mean Value Theorems"] },
+          { "name": "Probability & Statistics", "topics": ["Probability Axioms & Rules", "Conditional Probability & Bayes Theorem", "Random Variables", "Mean, Variance & Std. Deviation", "Common Distributions (Binomial, Poisson, Normal)"] }
+        ]
+      },
+      {
+        "name": "2. Discrete Mathematics",
+        "badge": "Di",
+        "groups": [
+          { "name": "Mathematical Logic", "topics": ["Propositional Logic & Truth Tables", "First Order / Predicate Logic", "Inference & Equivalences"] },
+          { "name": "Sets, Relations & Functions", "topics": ["Sets & Operations", "Relations (Properties, Equivalence, Partial Order)", "Functions (Injective, Surjective, Bijective)", "Partial Orders, Posets & Lattices"] },
+          { "name": "Combinatorics & Recurrence", "topics": ["Permutations & Combinations", "Pigeonhole Principle", "Recurrence Relations & Master Theorem", "Generating Functions"] },
+          { "name": "Graph Theory", "topics": ["Graph Types & Terminology", "Connectivity, Isomorphism & Planarity", "Graph Coloring & Bipartite Graphs", "Trees, Spanning Trees & Matching"] }
+        ]
+      },
+      {
+        "name": "3. Digital Logic",
+        "badge": "Dl",
+        "groups": [
+          { "name": "Core Topics", "topics": ["Boolean Algebra & Minimization", "Logic Gates & Universal Gates", "K-Maps (Up to 5 Variables)", "Combinational Circuits (Adders, MUX, DEMUX, Encoders)", "Sequential Circuits (Flip-Flops, Registers, Counters)", "Number Systems & Representations (2's Complement, Floating Point)"] }
+        ]
+      },
+      {
+        "name": "4. Computer Organization & Architecture",
+        "badge": "Co",
+        "groups": [
+          { "name": "Core Topics", "topics": ["Machine Instructions & Addressing Modes", "ALU, Data Path & Control Unit (Hardwired / Microprogrammed)", "Instruction Pipelining & Hazards", "Memory Hierarchy & Cache Memory Mapping", "Cache Performance & Hit/Miss Ratios", "Secondary Storage & Disk Scheduling", "I/O Organization (Interrupts, DMA)"] }
+        ]
+      },
+      {
+        "name": "5. C Programming",
+        "badge": "C ",
+        "groups": [
+          { "name": "Core Topics", "topics": ["Variables, Data Types & Operators", "Control Statements & Loops", "Functions & Parameter Passing (Value vs Reference)", "Recursion & Call Stacks", "Arrays & Strings", "Pointers & Double Pointers", "Structures, Unions & Dynamic Memory Allocation (malloc/calloc)"] }
+        ]
+      },
+      {
+        "name": "6. Data Structures",
+        "badge": "Ds",
+        "groups": [
+          { "name": "Core Topics", "topics": ["Arrays & Matrix Representations", "Linked Lists (Singly, Doubly, Circular)", "Stacks & Applications (Infix/Postfix/Prefix)", "Queues (Circular, Priority, Deque)", "Trees, Binary Trees & Traversals (Inorder, Preorder, Postorder)", "Binary Search Trees (BST) & AVL Trees", "Heaps & Priority Queues", "Hashing & Collision Resolution Techniques", "Graph Representations (Adjacency Matrix & List)"] }
+        ]
+      },
+      {
+        "name": "7. Algorithms",
+        "badge": "Al",
+        "groups": [
+          { "name": "Core Topics", "topics": ["Asymptotic Analysis (Big-O, Omega, Theta)", "Recurrence Relations & Master Theorem", "Sorting Algorithms (Merge, Quick, Heap, Insertion, Bubble)", "Searching Algorithms (Linear, Binary Search)", "Divide & Conquer Paradigm", "Greedy Algorithms (Fractional Knapsack, Huffman Coding)", "Dynamic Programming (0/1 Knapsack, LCS, Matrix Chain)", "Graph Traversals (BFS & DFS)", "Minimum Spanning Tree (Prim's & Kruskal's)", "Shortest Path Algorithms (Dijkstra's, Bellman-Ford, Floyd-Warshall)"] }
+        ]
+      },
+      {
+        "name": "8. Theory of Computation",
+        "badge": "Th",
+        "groups": [
+          { "name": "Core Topics", "topics": ["Deterministic Finite Automata (DFA)", "Nondeterministic Finite Automata (NFA & e-NFA)", "Regular Expressions & Regular Languages", "Pumping Lemma for Regular Languages & Closure Properties", "Context-Free Grammars (CFG) & Normal Forms (CNF/GNF)", "Pushdown Automata (PDA)", "Turing Machines & Computability", "Decidability, Undecidability & Halting Problem", "Complexity Classes (P, NP, NP-Complete, NP-Hard)"] }
+        ]
+      },
+      {
+        "name": "9. Compiler Design",
+        "badge": "Cd",
+        "groups": [
+          { "name": "Core Topics", "topics": ["Lexical Analysis & Token Recognition", "Syntax Analysis & Parsing Strategies", "Top-Down Parsing (LL(1), Recursive Descent)", "Bottom-Up Parsing (LR(0), SLR, CLR, LALR)", "FIRST and FOLLOW Sets", "Syntax Directed Translation (SDT) & Attribute Grammars", "Intermediate Code Generation (3-Address Code)", "Code Optimization Techniques (Loop Optimization, DAG)", "Runtime Environment & Symbol Table Management"] }
+        ]
+      },
+      {
+        "name": "10. Operating Systems",
+        "badge": "Op",
+        "groups": [
+          { "name": "Core Topics", "topics": ["System Calls, Processes & Threads", "CPU Scheduling Algorithms (FCFS, SJF, RR, Priority)", "Process Synchronization & Critical Section Problem", "Mutex, Semaphores & Classical Synchronization Problems", "Deadlock Characterization, Prevention, Avoidance (Banker's) & Recovery", "Memory Management (Contiguous, Paging, Segmentation)", "Virtual Memory, Page Replacement Algorithms (FIFO, LRU, Optimal)", "File Systems, Directory Structures & Allocation Methods", "Disk Scheduling Algorithms (FCFS, SSTF, SCAN, C-SCAN)"] }
+        ]
+      },
+      {
+        "name": "11. Database Management Systems",
+        "badge": "Db",
+        "groups": [
+          { "name": "Core Topics", "topics": ["Entity-Relationship (ER) Model & Relational Model", "Relational Algebra & Relational Calculus", "SQL Queries, Joins, Grouping & Subqueries", "Integrity Constraints & Keys (Super, Candidate, Primary, Foreign)", "Normalization (1NF, 2NF, 3NF, BCNF, Functional Dependencies)", "Transactions, Concurrency Control & ACID Properties", "Serializability & Lock-Based Protocols (2PL)", "Indexing (B-Tree, B+ Tree) & File Organization"] }
+        ]
+      },
+      {
+        "name": "12. Computer Networks",
+        "badge": "Cn",
+        "groups": [
+          { "name": "Core Topics", "topics": ["OSI Reference Model & TCP/IP Protocol Suite", "Data Link Layer: Framing, Error Detection & Correction (CRC)", "Flow & Error Control Protocols (Stop-and-Wait, Go-Back-N, Selective Repeat)", "Multiple Access Protocols (ALOHA, CSMA/CD, CSMA/CA, Ethernet)", "Network Layer: IP Addressing (IPv4, IPv6) & Subnetting/CIDR", "Routing Protocols (Distance Vector, Link State, RIP, OSPF, BGP)", "Transport Layer: UDP & TCP (Header, Connection Setup, Flow Control)", "TCP Congestion Control (Slow Start, Congestion Avoidance, Fast Retransmit)", "Application Layer Protocols (DNS, HTTP, HTTPS, SMTP, FTP, DHCP)"] }
+        ]
+      },
+      {
+        "name": "13. General Aptitude",
+        "badge": "Ge",
+        "groups": [
+          { "name": "Core Topics", "topics": ["English Grammar & Sentence Correction", "Reading Comprehension & Verbal Ability", "Vocabulary, Synonyms & Antonyms", "Quantitative Aptitude (Number Systems, Percentage, Profit/Loss)", "Time, Speed & Distance / Work & Time", "Logical Reasoning & Series Completion", "Data Interpretation (Bar Graphs, Pie Charts, Tables)"] }
+        ]
+      }
+    ]
+  },
+  "da": {
+    "label": "GATE DA",
+    "tag": "Data Science & AI",
+    "cls": "da",
+    "sections": [
+      {
+        "name": "1. Probability & Statistics",
+        "badge": "Ps",
+        "groups": [
+          { "name": "Core Topics", "topics": ["Probability Axioms & Rules", "Conditional Probability & Bayes Theorem", "Random Variables (Discrete & Continuous)", "Joint Probability Distributions", "Correlation, Covariance & Independence", "Mean, Variance, Median & Mode", "Common Distributions (Uniform, Normal, Exponential, Poisson, Binomial)", "Sampling Distributions & Central Limit Theorem", "Hypothesis Testing (t-test, z-test, Chi-Square, ANOVA)", "Confidence Intervals & p-values"] }
+        ]
+      },
+      {
+        "name": "2. Linear Algebra",
+        "badge": "La",
+        "groups": [
+          { "name": "Core Topics", "topics": ["Matrices, Operations & Determinants", "Rank of a Matrix & Inverse", "Vector Spaces, Subspaces & Span", "Linear Independence & Basis", "System of Linear Equations (LU Decomposition)", "Eigenvalues, Eigenvectors & Characteristic Polynomial", "Orthogonality & Projections", "Singular Value Decomposition (SVD) & Principal Component Analysis (PCA)"] }
+        ]
+      },
+      {
+        "name": "3. Calculus & Optimization",
+        "badge": "Ca",
+        "groups": [
+          { "name": "Core Topics", "topics": ["Functions of Single & Multiple Variables", "Limits, Continuity & Differentiability", "Partial Derivatives & Directional Derivatives", "Gradient, Hessian Matrix & Jacobian", "Convex Sets & Convex Functions", "Maxima & Minima (Local & Global)", "Constrained Optimization & Lagrange Multipliers", "Gradient Descent & Variants (SGD, Momentum)"] }
+        ]
+      },
+      {
+        "name": "4. Programming in Python / C",
+        "badge": "Py",
+        "groups": [
+          { "name": "Core Topics", "topics": ["Python Basics: Syntax, Variables & Data Types", "Control Flow (if-else, loops) & Comprehensions", "Functions, Parameter Passing & Lambda Functions", "Recursion & Scope", "Built-in Data Structures: Lists, Tuples, Sets & Dictionaries", "String Manipulation & Regular Expressions", "File Handling (Reading/Writing CSV, TXT, JSON)", "Exception Handling & Debugging Basics"] }
+        ]
+      },
+      {
+        "name": "5. Data Structures",
+        "badge": "Ds",
+        "groups": [
+          { "name": "Core Topics", "topics": ["Arrays, Matrix Operations & String Manipulation", "Linked Lists (Singly, Doubly, Circular)", "Stacks & Queue Implementations", "Trees, Binary Trees & Tree Traversals", "Binary Search Trees (BST)", "Heaps & Priority Queues", "Hashing, Hash Tables & Collision Resolution", "Graph Representations (Adjacency Matrix & List)"] }
+        ]
+      },
+      {
+        "name": "6. Algorithms",
+        "badge": "Al",
+        "groups": [
+          { "name": "Core Topics", "topics": ["Asymptotic Notation (Big-O, Omega, Theta) & Complexity Analysis", "Sorting Algorithms (Merge Sort, Quick Sort, Heap Sort, Counting Sort)", "Searching Algorithms (Linear Search, Binary Search)", "Divide & Conquer Strategies", "Greedy Algorithms", "Dynamic Programming Basics", "Graph Search Algorithms (BFS & DFS)"] }
+        ]
+      },
+      {
+        "name": "7. Database Mgmt & Data Warehousing",
+        "badge": "Db",
+        "groups": [
+          { "name": "Core Topics", "topics": ["Relational Data Model & Schemas", "SQL: DDL, DML, Joins, Aggregations & Subqueries", "Integrity Constraints & Keys", "Normalization (1NF, 2NF, 3NF, BCNF)", "Data Warehousing Concepts & Star/Snowflake Schemas", "ETL (Extract, Transform, Load) Processes", "OLAP vs OLTP & Multidimensional Data Modeling"] }
+        ]
+      },
+      {
+        "name": "8. Machine Learning",
+        "badge": "Ml",
+        "groups": [
+          { "name": "Core Topics", "topics": ["Supervised vs Unsupervised Learning Frameworks", "Linear Regression, Ridge & Lasso Regularization", "Logistic Regression & Multiclass Classification", "Decision Trees, Information Gain & Gini Impurity", "Ensemble Methods (Random Forest, Gradient Boosting)", "K-Nearest Neighbors (KNN) & Support Vector Machines (SVM)", "Naive Bayes Classifier", "Clustering (K-Means, Hierarchical, DBSCAN)", "Dimensionality Reduction (PCA, t-SNE)", "Overfitting, Underfitting & Bias-Variance Tradeoff", "Model Evaluation: Confusion Matrix, Precision, Recall, F1-Score, ROC/AUC", "Cross-Validation & Hyperparameter Tuning"] }
+        ]
+      },
+      {
+        "name": "9. Artificial Intelligence",
+        "badge": "Ai",
+        "groups": [
+          { "name": "Core Topics", "topics": ["Intelligent Agents, Task Environments & Rationality", "Uninformed Search Strategies (BFS, DFS, Uniform Cost Search)", "Informed / Heuristic Search (A* Search, Greedy Best-First)", "Adversarial Search & Game Playing (Minimax Algorithm, Alpha-Beta Pruning)", "Constraint Satisfaction Problems (CSP)", "Knowledge Representation & Logic (Propositional & First-Order Logic)", "Probabilistic Reasoning & Bayesian Networks", "Markov Decision Processes (MDP) & Reinforcement Learning Basics"] }
+        ]
+      },
+      {
+        "name": "10. General Aptitude",
+        "badge": "Ge",
+        "groups": [
+          { "name": "Core Topics", "topics": ["English Grammar & Vocabulary", "Reading Comprehension & Verbal Reasoning", "Quantitative Aptitude & Numerical Ability", "Logical Reasoning & Analytical Thinking", "Data Interpretation & Chart Analysis"] }
+        ]
+      }
+    ]
+  }
+}

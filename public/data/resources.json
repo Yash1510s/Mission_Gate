@@ -1,0 +1,236 @@
+{
+  "cs": [
+    {
+      "subject": "Engineering Mathematics",
+      "badge": "Em",
+      "resources": [
+        { "title": "GATE Wallah — Engineering Mathematics | GATE 2026 / 2025 Crash Course", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH8fB90j_7Uq02j8s51o4U5b", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "Neso Academy — Linear Algebra", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRiwSPXtLhaukzPcR3dU0JnK", "author": "Neso Academy", "rating": 5 },
+        { "title": "Gate Smashers — Engineering Mathematics", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiH2wwES9vPWsEL6peXeCHbA", "author": "Gate Smashers", "rating": 4 },
+        { "title": "GeeksforGeeks — Engineering Mathematics Notes", "type": "notes", "url": "https://www.geeksforgeeks.org/engineering-mathematics-tutorials/", "author": "GFG", "rating": 4 },
+        { "title": "NPTEL — Advanced Engineering Mathematics", "type": "course", "url": "https://nptel.ac.in/courses/111105035", "author": "NPTEL (IIT Kharagpur)", "rating": 5 }
+      ]
+    },
+    {
+      "subject": "Discrete Mathematics",
+      "badge": "Di",
+      "resources": [
+        { "title": "GATE Wallah — Discrete Mathematics | CS & IT | GATE 2026 Crash Course", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH9TTRzwOcwbXtUVK8-NHZrJ", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "Gate Smashers — Discrete Mathematics (Full Playlist)", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiH2wwES9vPWsEL6peXeCHbA", "author": "Gate Smashers", "rating": 5 },
+        { "title": "Knowledge Gate — Discrete Mathematics", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLmXKhU9FNesSmu-_OBJ3gR8M-2tQ25Xfn", "author": "Knowledge Gate", "rating": 4 },
+        { "title": "NPTEL — Discrete Mathematics (IIT Madras)", "type": "course", "url": "https://nptel.ac.in/courses/106106094", "author": "NPTEL", "rating": 5 },
+        { "title": "GeeksforGeeks — Discrete Mathematics Tutorials", "type": "notes", "url": "https://www.geeksforgeeks.org/discrete-mathematics-tutorial/", "author": "GFG", "rating": 4 }
+      ]
+    },
+    {
+      "subject": "Digital Logic",
+      "badge": "Dl",
+      "resources": [
+        { "title": "GATE Wallah — Digital Logic | GATE CS & IT | 2026 / 2025 Crash Course", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH9m2P5UqY6_1D15o0d56c0M", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "Neso Academy — Digital Electronics", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm", "author": "Neso Academy", "rating": 5 },
+        { "title": "Gate Smashers — Digital Logic", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiGmXg4NoB6IDf1bSoLrmYFe", "author": "Gate Smashers", "rating": 4 },
+        { "title": "GeeksforGeeks — Digital Logic Notes", "type": "notes", "url": "https://www.geeksforgeeks.org/digital-electronics-logic-design-tutorials/", "author": "GFG", "rating": 4 }
+      ]
+    },
+    {
+      "subject": "Computer Organization & Architecture",
+      "badge": "Co",
+      "resources": [
+        { "title": "GATE Wallah — COA | Computer Organization | GATE 2026 Crash Course", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH8p32q55_d2y1z6R4w0y0V1", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "Gate Smashers — COA (Full Playlist)", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiHMonh3G6QNKq53C6oNXGrX", "author": "Gate Smashers", "rating": 5 },
+        { "title": "Knowledge Gate — COA", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLmXKhU9FNeseFMiTkKSE88fM4CG9ByUcT", "author": "Knowledge Gate", "rating": 4 },
+        { "title": "GeeksforGeeks — COA Notes", "type": "notes", "url": "https://www.geeksforgeeks.org/computer-organization-and-architecture-tutorials/", "author": "GFG", "rating": 4 }
+      ]
+    },
+    {
+      "subject": "C Programming",
+      "badge": "C ",
+      "resources": [
+        { "title": "GATE Wallah — C Language & Programming | GATE CS 2026 Crash Course", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH8Q2y2c8a14z7p2s1p9V5aL", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "Abdul Bari — C Programming & Pointers Deep Dive", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O", "author": "Abdul Bari", "rating": 5 },
+        { "title": "Jenny's Lectures — C Programming Full Course", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU", "author": "Jenny's Lectures", "rating": 5 },
+        { "title": "GeeksforGeeks — C Programming Tutorials", "type": "notes", "url": "https://www.geeksforgeeks.org/c-programming-language/", "author": "GFG", "rating": 4 },
+        { "title": "HackerRank — C Language Practice Arena", "type": "practice", "url": "https://www.hackerrank.com/domains/c", "author": "HackerRank", "rating": 5 }
+      ]
+    },
+    {
+      "subject": "Data Structures",
+      "badge": "Ds",
+      "resources": [
+        { "title": "GATE Wallah — Data Structures (DSA) | GATE CS & DA 2026", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH8Q2y2c8a14z7p2s1p9V5aL", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "Abdul Bari — Data Structures Algorithms (C/C++)", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O", "author": "Abdul Bari", "rating": 5 },
+        { "title": "Jenny's Lectures — Data Structures Full Playlist", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU", "author": "Jenny's Lectures", "rating": 5 },
+        { "title": "LeetCode — Data Structures Practice Problems", "type": "practice", "url": "https://leetcode.com/explore/", "author": "LeetCode", "rating": 5 },
+        { "title": "GeeksforGeeks — DSA Practice Portal", "type": "practice", "url": "https://www.geeksforgeeks.org/data-structures/", "author": "GFG", "rating": 5 }
+      ]
+    },
+    {
+      "subject": "Algorithms",
+      "badge": "Al",
+      "resources": [
+        { "title": "GATE Wallah — Design and Analysis of Algorithms | GATE CS 2026 Crash Course", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH9s0a2y9a21e4t5b2j3p6d1", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "Abdul Bari — Algorithms (Full Course)", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O", "author": "Abdul Bari", "rating": 5 },
+        { "title": "Gate Smashers — Algorithms", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiHcmS4i14bI0VrMbZTDvmPn", "author": "Gate Smashers", "rating": 4 },
+        { "title": "CLRS Book (Introduction to Algorithms)", "type": "book", "url": "https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/", "author": "Cormen et al.", "rating": 5 },
+        { "title": "Visualgo — Algorithm Visualizations", "type": "tool", "url": "https://visualgo.net/", "author": "Visualgo", "rating": 5 }
+      ]
+    },
+    {
+      "subject": "Theory of Computation",
+      "badge": "Th",
+      "resources": [
+        { "title": "GATE Wallah — Theory of Computation (TOC) | GATE 2026 Crash Course", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH-g0323a60a8f8b7b252037", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "Neso Academy — Theory of Computation", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev", "author": "Neso Academy", "rating": 5 },
+        { "title": "Gate Smashers — TOC", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiFM9Lj5G9G_76adtyb4ef7i", "author": "Gate Smashers", "rating": 4 },
+        { "title": "GeeksforGeeks — TOC Notes", "type": "notes", "url": "https://www.geeksforgeeks.org/theory-of-computation-automata-tutorials/", "author": "GFG", "rating": 4 }
+      ]
+    },
+    {
+      "subject": "Compiler Design",
+      "badge": "Cd",
+      "resources": [
+        { "title": "GATE Wallah — Compiler Design | GATE CS & IT | 2026 Crash Course", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH_22383823292a188f4b238", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "Gate Smashers — Compiler Design", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiEKtKSIHYusizkESC42diyc", "author": "Gate Smashers", "rating": 5 },
+        { "title": "Knowledge Gate — Compiler Design", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLmXKhU9FNesSmu-_OBJ3gR8M-2tQ25Xfn", "author": "Knowledge Gate", "rating": 4 },
+        { "title": "GeeksforGeeks — Compiler Design Notes", "type": "notes", "url": "https://www.geeksforgeeks.org/compiler-design-tutorials/", "author": "GFG", "rating": 4 }
+      ]
+    },
+    {
+      "subject": "Operating Systems",
+      "badge": "Op",
+      "resources": [
+        { "title": "GATE Wallah — Operating Systems (OS) | GATE CS 2026 Crash Course", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH9m4a66810a95a898b105a3", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "Gate Smashers — Operating Systems", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p", "author": "Gate Smashers", "rating": 5 },
+        { "title": "Knowledge Gate — OS", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLmXKhU9FNesSFvj6gASuWmQd23Ul5omtD", "author": "Knowledge Gate", "rating": 4 },
+        { "title": "Neso Academy — Operating Systems", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAdc0cPiS", "author": "Neso Academy", "rating": 4 },
+        { "title": "GeeksforGeeks — OS Notes", "type": "notes", "url": "https://www.geeksforgeeks.org/operating-systems/", "author": "GFG", "rating": 4 }
+      ]
+    },
+    {
+      "subject": "DBMS",
+      "badge": "Db",
+      "resources": [
+        { "title": "GATE Wallah — DBMS | Database Management System | GATE 2026 Crash Course", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH-d1421045f8f53381a1793", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "Gate Smashers — DBMS", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y", "author": "Gate Smashers", "rating": 5 },
+        { "title": "Knowledge Gate — DBMS", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLmXKhU9FNesR1rSES7oLdJaNFgmujD5rO", "author": "Knowledge Gate", "rating": 4 },
+        { "title": "GeeksforGeeks — DBMS Notes", "type": "notes", "url": "https://www.geeksforgeeks.org/dbms/", "author": "GFG", "rating": 4 },
+        { "title": "SQL Practice — HackerRank", "type": "practice", "url": "https://www.hackerrank.com/domains/sql", "author": "HackerRank", "rating": 4 }
+      ]
+    },
+    {
+      "subject": "Computer Networks",
+      "badge": "Cn",
+      "resources": [
+        { "title": "GATE Wallah — Computer Networks (CN) | GATE CS & IT | 2026 Crash Course", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH_p090680a6b78a94625b13", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "Gate Smashers — Computer Networks", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_", "author": "Gate Smashers", "rating": 5 },
+        { "title": "Knowledge Gate — CN", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLmXKhU9FNesQXfAHsPqqwOOcKiPl-HXjl", "author": "Knowledge Gate", "rating": 4 },
+        { "title": "Neso Academy — Computer Networks", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRgMCUAG0XRw78UA8qnv6jEx", "author": "Neso Academy", "rating": 4 }
+      ]
+    },
+    {
+      "subject": "General Aptitude",
+      "badge": "Ge",
+      "resources": [
+        { "title": "GATE Wallah — General Aptitude | GATE 2026 / 2025 Crash Course", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH9m0a78129038031206141a", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "Saurabh Thakur — General Aptitude for GATE", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PL9RcWoqXmzaLzS0Sa33L902a781a95101", "author": "Saurabh Thakur", "rating": 5 },
+        { "title": "IndiaBIX — Aptitude Practice Questions", "type": "practice", "url": "https://www.indiabix.com/", "author": "IndiaBIX", "rating": 5 }
+      ]
+    }
+  ],
+  "da": [
+    {
+      "subject": "Probability & Statistics",
+      "badge": "Ps",
+      "resources": [
+        { "title": "GATE Wallah — Probability & Statistics | GATE DA 2026 Crash Course", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH823a310619080b06b245a4", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "Khan Academy — Statistics & Probability", "type": "course", "url": "https://www.khanacademy.org/math/statistics-probability", "author": "Khan Academy", "rating": 5 },
+        { "title": "3Blue1Brown — Probability", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDOjmo3Y6ADm0ScWAlEXf-fp", "author": "3Blue1Brown", "rating": 5 },
+        { "title": "StatQuest — Statistics Fundamentals", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9", "author": "StatQuest", "rating": 5 }
+      ]
+    },
+    {
+      "subject": "Linear Algebra",
+      "badge": "La",
+      "resources": [
+        { "title": "GATE Wallah — Linear Algebra | GATE DA & CS 2026 Crash Course", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH9m018281a8b030a0889101", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "3Blue1Brown — Essence of Linear Algebra", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab", "author": "3Blue1Brown", "rating": 5 },
+        { "title": "Gilbert Strang — MIT Linear Algebra", "type": "course", "url": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/", "author": "MIT OCW", "rating": 5 }
+      ]
+    },
+    {
+      "subject": "Calculus & Optimization",
+      "badge": "Ca",
+      "resources": [
+        { "title": "GATE Wallah — Calculus & Optimization | GATE DA 2026 Crash Course", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH8fB90j_7Uq02j8s51o4U5b", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "3Blue1Brown — Essence of Calculus", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr", "author": "3Blue1Brown", "rating": 5 },
+        { "title": "Khan Academy — Multivariable Calculus & Optimization", "type": "course", "url": "https://www.khanacademy.org/math/multivariable-calculus", "author": "Khan Academy", "rating": 5 }
+      ]
+    },
+    {
+      "subject": "Programming in Python / C",
+      "badge": "Py",
+      "resources": [
+        { "title": "GATE Wallah — Python & C Programming for Data Science | GATE DA 2026", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH8Q2y2c8a14z7p2s1p9V5aL", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "Corey Schafer — Python Programming Tutorials", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU", "author": "Corey Schafer", "rating": 5 },
+        { "title": "LeetCode — Practice Python / C", "type": "practice", "url": "https://leetcode.com/", "author": "LeetCode", "rating": 5 },
+        { "title": "HackerRank — Python Practice Domain", "type": "practice", "url": "https://www.hackerrank.com/domains/python", "author": "HackerRank", "rating": 5 }
+      ]
+    },
+    {
+      "subject": "Data Structures",
+      "badge": "Ds",
+      "resources": [
+        { "title": "GATE Wallah — DSA for Data Science | GATE DA 2026", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH8Q2y2c8a14z7p2s1p9V5aL", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "Abdul Bari — Data Structures & Algorithms", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O", "author": "Abdul Bari", "rating": 5 },
+        { "title": "GeeksforGeeks — Data Structures in Python", "type": "notes", "url": "https://www.geeksforgeeks.org/data-structures-in-python/", "author": "GFG", "rating": 4 }
+      ]
+    },
+    {
+      "subject": "Algorithms",
+      "badge": "Al",
+      "resources": [
+        { "title": "GATE Wallah — Design & Analysis of Algorithms | GATE DA 2026", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH9s0a2y9a21e4t5b2j3p6d1", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "Abdul Bari — Algorithms Full Playlist", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O", "author": "Abdul Bari", "rating": 5 },
+        { "title": "Visualgo — Algorithm Visualizations", "type": "tool", "url": "https://visualgo.net/", "author": "Visualgo", "rating": 5 }
+      ]
+    },
+    {
+      "subject": "Database Mgmt & Data Warehousing",
+      "badge": "Db",
+      "resources": [
+        { "title": "GATE Wallah — DBMS & Data Warehousing | GATE DA 2026 Crash Course", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH-d1421045f8f53381a1793", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "Gate Smashers — DBMS Full Course", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y", "author": "Gate Smashers", "rating": 5 },
+        { "title": "SQL Practice — HackerRank Arena", "type": "practice", "url": "https://www.hackerrank.com/domains/sql", "author": "HackerRank", "rating": 5 },
+        { "title": "GeeksforGeeks — Data Warehousing & ETL Notes", "type": "notes", "url": "https://www.geeksforgeeks.org/data-warehousing/", "author": "GFG", "rating": 4 }
+      ]
+    },
+    {
+      "subject": "Machine Learning",
+      "badge": "Ml",
+      "resources": [
+        { "title": "GATE Wallah — Machine Learning (ML) | GATE DA 2026 Crash Course", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH-e038030230623a8870102", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "Andrew Ng — Machine Learning Specialization (Stanford)", "type": "course", "url": "https://www.coursera.org/learn/machine-learning", "author": "Andrew Ng", "rating": 5 },
+        { "title": "StatQuest — Machine Learning & Deep Learning", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF", "author": "StatQuest", "rating": 5 },
+        { "title": "Krish Naik — Machine Learning Full Course", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe", "author": "Krish Naik", "rating": 5 }
+      ]
+    },
+    {
+      "subject": "Artificial Intelligence",
+      "badge": "Ai",
+      "resources": [
+        { "title": "GATE Wallah — Artificial Intelligence (AI) | GATE DA 2026 Crash Course", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH9m0a78129038031206141b", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "MIT 6.034 — Artificial Intelligence Lectures", "type": "course", "url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi", "author": "MIT OCW", "rating": 5 },
+        { "title": "GeeksforGeeks — Artificial Intelligence Notes & Search Algorithms", "type": "notes", "url": "https://www.geeksforgeeks.org/artificial-intelligence/", "author": "GFG", "rating": 4 }
+      ]
+    },
+    {
+      "subject": "General Aptitude",
+      "badge": "Ge",
+      "resources": [
+        { "title": "GATE Wallah — General Aptitude | GATE 2026 / 2025 Crash Course", "type": "youtube", "url": "https://youtube.com/playlist?list=PL3eEXnCBViH9m0a78129038031206141a", "author": "GATE Wallah (PW)", "rating": 5 },
+        { "title": "Saurabh Thakur — General Aptitude for GATE", "type": "youtube", "url": "https://www.youtube.com/playlist?list=PL9RcWoqXmzaLzS0Sa33L902a781a95101", "author": "Saurabh Thakur", "rating": 5 },
+        { "title": "IndiaBIX — Aptitude Practice Questions", "type": "practice", "url": "https://www.indiabix.com/", "author": "IndiaBIX", "rating": 5 }
+      ]
+    }
+  ]
+}

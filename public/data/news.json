@@ -1,0 +1,50 @@
+{
+  "updates": [
+    {
+      "date": "2026-07-01",
+      "title": "GATE 2027 — Official Website Expected to Go Live",
+      "description": "The GATE 2027 organizing institute is expected to launch the official website with exam details by July-August 2026.",
+      "type": "important",
+      "link": "https://gate2027.iisc.ac.in"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "Indian Air Force Accepts GATE Scores for Recruitment",
+      "description": "IAF has announced limited seats for engineering officers through GATE 2025/2026 score cards. This is a new entry pathway for GATE-qualified engineers.",
+      "type": "breaking",
+      "link": "https://afcat.cdac.in/AFCAT/"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "GATE 2026 Results Declared",
+      "description": "GATE 2026 results have been declared. Scorecards are available for download from the official GATE website.",
+      "type": "result",
+      "link": ""
+    },
+    {
+      "date": "2026-02-01",
+      "title": "GATE 2026 Exam Conducted Successfully",
+      "description": "GATE 2026 was conducted across multiple shifts in February 2026 for all papers.",
+      "type": "exam",
+      "link": ""
+    }
+  ],
+  "importantDates": {
+    "registrationStart": "2026-08-15",
+    "registrationEnd": "2026-10-15",
+    "admitCard": "2027-01-05",
+    "examDate": "2027-02-01",
+    "resultDate": "2027-03-15",
+    "scorecardAvailable": "2027-03-20"
+  },
+  "examPattern": {
+    "totalMarks": 100,
+    "duration": "3 hours",
+    "sections": [
+      { "name": "General Aptitude", "marks": 15, "questions": 10 },
+      { "name": "Core Subject", "marks": 85, "questions": 55 }
+    ],
+    "questionTypes": ["MCQ (Multiple Choice Questions)", "MSQ (Multiple Select Questions)", "NAT (Numerical Answer Type)"],
+    "negativeMaking": "MCQ: 1/3 for 1-mark, 2/3 for 2-mark questions. No negative for MSQ & NAT."
+  }
+}
