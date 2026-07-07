@@ -5,7 +5,6 @@ import ProgressRing from '../components/ui/ProgressRing';
 export default function Analytics() {
   const [syllabus, setSyllabus] = useState(null);
   const [selectedPaper, setSelectedPaper] = useState('cs'); // 'cs' or 'da'
-  const checked = useProgressStore(s => s.checked);
   const getPaperCounts = useProgressStore(s => s.getPaperCounts);
   const getSectionCounts = useProgressStore(s => s.getSectionCounts);
   const getStreak = useProgressStore(s => s.getStreak);

@@ -233,6 +233,7 @@ export default function Mocks() {
     if (!topics.includes(selectedTopic)) {
       setSelectedTopic(topics[0]);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedPaper]);
 
   // Timer effect
@@ -245,6 +246,7 @@ export default function Mocks() {
       alert('⏰ Time is up! Your mock test has been auto-submitted.');
     }
     return () => clearInterval(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeTest, testSubmitted, timeLeft]);
 
   const startTest = (test) => {

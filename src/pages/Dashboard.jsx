@@ -1,32 +1,10 @@
-import { useState, useEffect, memo } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useProgressStore } from '../stores/useProgressStore';
 import { useSettingsStore } from '../stores/useSettingsStore';
 import ProgressRing from '../components/ui/ProgressRing';
 import { CONCEPTS_LIBRARY } from '../data/concepts';
 
-// Isolated LiveClock component — only this re-renders every second, not the whole Dashboard
-const LiveClock = memo(function LiveClock({ userName, examDateStr }) {
-  const [now, setNow] = useState(new Date());
-  useEffect(() => {
-    const timer = setInterval(() => setNow(new Date()), 1000);
-    return () => clearInterval(timer);
-  }, []);
-
-  const examDateObj = new Date(examDateStr + 'T09:00:00');
-  const diffMs = Math.max(0, examDateObj - now);
-  const cDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
-  const cHours = Math.floor((diffMs / (1000 * 60 * 60)) % 24);
-  const cMinutes = Math.floor((diffMs / 1000 / 60) % 60);
-  const cSeconds = Math.floor((diffMs / 1000) % 60);
-
-  const timeString = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });
-  const dateString = now.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
-  const hours24 = now.getHours();
-  const greeting = hours24 < 12 ? `Good Morning, ${userName}! 🌅` : hours24 < 18 ? `Good Afternoon, ${userName}! ☀️` : `Good Evening, ${userName}! 🌙`;
-
-  return { cDays, cHours, cMinutes, cSeconds, timeString, dateString, greeting, examDateObj };
-});
 
 const quotes = [
   { text: "Success is the sum of small efforts, repeated day in and day out.", author: "Robert Collier" },
@@ -54,7 +32,6 @@ export default function Dashboard() {
   const getPaperCounts = useProgressStore(s => s.getPaperCounts);
   const getRecentActivity = useProgressStore(s => s.getRecentActivity);
   const getStreak = useProgressStore(s => s.getStreak);
-  const daysLeft = useSettingsStore(s => s.getDaysUntilExam)();
   const userName = useSettingsStore(s => s.userName) || 'GATE Aspirant';
   const examDateStr = useSettingsStore(s => s.examDate) || '2027-02-01';
 
@@ -371,7 +348,7 @@ export default function Dashboard() {
               <div className="empty-state__desc">Start checking off topics to see your progress here!</div>
             </div>
           ) : (
-            recentActivity.map((item, i) => (
+            recentActivity.map((item) => (
               <div key={item.id} className="activity-item">
                 <div
                   className="activity-item__dot"

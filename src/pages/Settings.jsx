@@ -53,7 +53,7 @@ export default function Settings() {
       if (data.settings) localStorage.setItem('gate-prep-companion-settings', data.settings);
       setExportStatus('🎉 Progress synced successfully! Reloading screen...');
       setTimeout(() => window.location.reload(), 1000);
-    } catch (err) {
+    } catch {
       setExportStatus('❌ Invalid Sync Code! Make sure you copied the exact text from WhatsApp.');
       setTimeout(() => setExportStatus(''), 4000);
     }

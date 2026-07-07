@@ -78,7 +78,7 @@ async function updateNewsFeed() {
   try {
     const raw = await fs.readFile(feedPath, 'utf-8');
     existingData = JSON.parse(raw);
-  } catch (err) {
+  } catch {
     console.warn('⚠️ Could not read existing gate-news-feed.json, starting fresh.');
   }
 
