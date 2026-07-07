@@ -8,24 +8,28 @@ const categoryColors = {
   'General Alerts': { bg: 'var(--info-soft)', color: 'var(--info)', icon: '📢' },
 };
 
-// Helper to generate realistic Time, Day, and Date for each card
-function getCardTimestamp(offsetHours = 0) {
-  const d = new Date(Date.now() - offsetHours * 3600 * 1000);
+// Format the actual publication date from JSON data
+function formatNewsDate(dateString) {
+  const d = new Date(dateString + 'T12:00:00');
   const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   
   const dayStr = days[d.getDay()];
   const dateStr = `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()}`;
-  const timeStr = d.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true });
   
-  return { dayStr, dateStr, timeStr };
+  // Calculate how long ago this was published
+  const now = new Date();
+  const diffMs = now - d;
+  const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+  const agoStr = diffDays === 0 ? 'Today' : diffDays === 1 ? 'Yesterday' : `${diffDays}d ago`;
+  
+  return { dayStr, dateStr, agoStr };
 }
 
 export default function News() {
   const [feedData, setFeedData] = useState([]);
   const [activeCat, setActiveCat] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
-  const [lastSync, setLastSync] = useState(() => getCardTimestamp(0).timeStr);
   const [bookmarked, setBookmarked] = useState(() => {
     try {
       return JSON.parse(localStorage.getItem('gate-prep-news-bookmarks') || '{}');
@@ -39,12 +43,6 @@ export default function News() {
       .then(r => r.json())
       .then(data => setFeedData(data.feed || []))
       .catch(console.error);
-
-    // Simulate live polling auto-refresh every 60 seconds
-    const interval = setInterval(() => {
-      setLastSync(getCardTimestamp(0).timeStr);
-    }, 60000);
-    return () => clearInterval(interval);
   }, []);
 
   const toggleBookmark = (id, e) => {
@@ -84,22 +82,22 @@ export default function News() {
         </p>
       </div>
 
-      {/* Live Feed & Trustworthiness Status Banner */}
+      {/* Curated Feed Status Banner */}
       <div className="card" style={{ marginBottom: 24, background: 'linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(59, 130, 246, 0.05) 100%)', border: '1px solid rgba(16, 185, 129, 0.3)' }}>
         <div className="card__body" style={{ padding: '14px 20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <span className="animate-pulse" style={{ width: 10, height: 10, borderRadius: '50%', background: '#10b981', display: 'inline-block', boxShadow: '0 0 10px #10b981' }} />
+            <span style={{ width: 10, height: 10, borderRadius: '50%', background: '#10b981', display: 'inline-block', boxShadow: '0 0 10px #10b981' }} />
             <div>
               <div style={{ fontSize: 14, fontWeight: 600, color: 'var(--text-primary)' }}>
-                Global Aspirant News Aggregator Engine Active
+                Curated GATE Aspirant News Feed
               </div>
               <div style={{ fontSize: 12, color: 'var(--text-muted)' }}>
-                Last synced: Today at {lastSync} • Auto-polling global feeds every 60s
+                {feedData.length} articles • Sourced from official IIT portals, PSU websites & education platforms
               </div>
             </div>
           </div>
           <div style={{ fontSize: 11, color: 'var(--text-secondary)', fontFamily: "'JetBrains Mono', monospace", background: 'rgba(255, 255, 255, 0.05)', padding: '6px 12px', borderRadius: 8, border: '1px solid rgba(255, 255, 255, 0.08)' }}>
-            🛡️ 100% Trustworthy: Verified RSS feeds from TechCrunch, Employment News & IIT Portals
+            🛡️ Verified: All links point to official source portals
           </div>
         </div>
       </div>
@@ -141,10 +139,10 @@ export default function News() {
         </div>
       ) : (
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(360px, 1fr))', gap: 18 }}>
-          {filtered.map((item, idx) => {
+          {filtered.map((item) => {
             const catStyle = categoryColors[item.category] || { bg: 'var(--glass)', color: 'var(--text-secondary)', icon: '📌' };
             const isSaved = !!bookmarked[item.id];
-            const { dayStr, dateStr, timeStr } = getCardTimestamp(idx * 2 + 1);
+            const { dayStr, dateStr, agoStr } = formatNewsDate(item.date);
 
             return (
               <a
@@ -155,7 +153,7 @@ export default function News() {
                 className="card card--interactive"
                 style={{ textDecoration: 'none', display: 'flex', flexDirection: 'column', height: '100%', overflow: 'hidden' }}
               >
-                {/* TIME, DAY, AND DATE HEADER ON TOP OF EVERY CARD */}
+                {/* ACTUAL PUBLICATION DATE HEADER */}
                 <div style={{
                   display: 'flex', alignItems: 'center', justifyContent: 'space-between',
                   padding: '8px 16px', background: 'rgba(255, 255, 255, 0.04)',
@@ -166,7 +164,7 @@ export default function News() {
                     <span style={{ color: 'var(--accent-cs)' }}>📅</span> {dayStr}, {dateStr}
                   </span>
                   <span style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                    <span style={{ color: 'var(--success)' }}>🕒</span> {timeStr} • <span style={{ color: '#4ade80' }}>● Verified</span>
+                    <span style={{ color: 'var(--success)' }}>🕒</span> {agoStr} • <span style={{ color: '#4ade80' }}>● Verified</span>
                   </span>
                 </div>
 

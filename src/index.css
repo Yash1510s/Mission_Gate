@@ -3,7 +3,7 @@
    Premium dark glassmorphic UI with vibrant accents
    ═══════════════════════════════════════════════════════════════════ */
 
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+/* Fonts loaded via <link> in index.html for non-blocking rendering */
 
 /* ─── CSS VARIABLES ─── */
 :root {
@@ -23,8 +23,8 @@
 
   /* Text - Ultra-Readable High Contrast & Eye-Soothing */
   --text-primary: #ffffff;
-  --text-secondary: #e2e8f0;
-  --text-muted: #94a3b8;
+  --text-secondary: #f1f5f9;
+  --text-muted: #cbd5e1;
   --text-inverse: #080a12;
 
   /* Accent colors — CS (Soothing Sapphire), DA (Soothing Violet) */
@@ -112,7 +112,15 @@ body {
 a { color: inherit; text-decoration: none; }
 img { max-width: 100%; display: block; }
 button { font-family: inherit; cursor: pointer; border: none; background: none; }
-input, textarea, select { font-family: inherit; }
+input, textarea, select { font-family: inherit; color-scheme: dark; }
+
+option {
+  background-color: #0c0f1d !important;
+  color: #ffffff !important;
+  padding: 12px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
 ul, ol { list-style: none; }
 
 /* ─── TYPOGRAPHY ─── */
@@ -188,8 +196,8 @@ h4 { font-size: 17px; }
   bottom: 0;
   width: var(--sidebar-width);
   background: rgba(8, 11, 22, 0.82);
-  backdrop-filter: blur(35px);
-  -webkit-backdrop-filter: blur(35px);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border-right: 1px solid rgba(91, 140, 255, 0.22);
   display: flex;
   flex-direction: column;
@@ -365,8 +373,8 @@ h4 { font-size: 17px; }
   right: 0;
   height: var(--topbar-height);
   background: rgba(8, 11, 22, 0.75);
-  backdrop-filter: blur(35px);
-  -webkit-backdrop-filter: blur(35px);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid rgba(91, 140, 255, 0.22);
   display: flex;
   align-items: center;
@@ -620,24 +628,23 @@ h4 { font-size: 17px; }
 
 /* ─── CARDS — EYE-SOOTHING SILKY MATTE GLASS AESTHETIC ─── */
 .card {
-  background: rgba(15, 20, 35, 0.7);
-  backdrop-filter: blur(28px);
-  -webkit-backdrop-filter: blur(28px);
+  background: rgba(12, 16, 28, 0.95);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: var(--radius-lg);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08);
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
   overflow: hidden;
   position: relative;
+  will-change: transform;
 }
 
 .card:hover {
-  transform: translateY(-4px);
-  background: rgba(22, 30, 52, 0.85);
+  transform: translateY(-3px);
+  background: rgba(22, 30, 52, 0.92);
   border-color: rgba(96, 165, 250, 0.4);
   border-top-color: rgba(192, 132, 252, 0.6);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 25px rgba(96, 165, 250, 0.15);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.5), 0 0 20px rgba(96, 165, 250, 0.12);
 }
 
 .card--interactive { cursor: pointer; }

@@ -1,0 +1,38 @@
+name: 🔄 Auto-Update GATE News & Opportunities
+
+on:
+  schedule:
+    # Run automatically every 6 hours (at minute 0 past hour 0, 6, 12, and 18 UTC)
+    - cron: '0 0,6,12,18 * * *'
+  workflow_dispatch: # Allows you to manually trigger a run from GitHub Actions tab anytime!
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📦 Check out repository
+        uses: actions/checkout@v4
+
+      - name: 🟢 Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 🔄 Run Data Fetcher Script
+        run: node scripts/fetch-data.mjs
+
+      - name: 🚀 Commit and Push if changed
+        run: |
+          git config --global user.name "GATE Companion Bot"
+          git config --global user.email "bot@gatecompanion.ai"
+          git add public/data/gate-news-feed.json public/data/jobs.json public/data/news.json
+          if git diff --staged --quiet; then
+            echo "ℹ️ No new data changes to commit."
+          else
+            git commit -m "chore(data): auto-update GATE news & recruitment feed"
+            git push
+            echo "✅ Successfully pushed updated data! Vercel will auto-deploy in ~30s."
+          fi

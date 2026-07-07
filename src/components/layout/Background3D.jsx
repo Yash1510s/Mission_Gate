@@ -16,23 +16,20 @@ export default function Background3D() {
     let width = (canvas.width = window.innerWidth);
     let height = (canvas.height = window.innerHeight);
 
+    // Debounced resize handler
+    let resizeTimeout;
     const handleResize = () => {
-      if (!canvas) return;
-      width = canvas.width = window.innerWidth;
-      height = canvas.height = window.innerHeight;
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(() => {
+        if (!canvas) return;
+        width = canvas.width = window.innerWidth;
+        height = canvas.height = window.innerHeight;
+      }, 200);
     };
     window.addEventListener('resize', handleResize);
 
-    // Mouse parallax tracking
-    let mouse = { x: width / 2, y: height / 2, targetX: width / 2, targetY: height / 2 };
-    const handleMouseMove = (e) => {
-      mouse.targetX = e.clientX;
-      mouse.targetY = e.clientY;
-    };
-    window.addEventListener('mousemove', handleMouseMove);
-
-    // Gentle, slow-floating ambient stardust
-    const particleCount = reduceMotion ? 12 : 35;
+    // Gentle, slow-floating ambient stardust (reduced count for perf)
+    const particleCount = reduceMotion ? 8 : 20;
     const particles = Array.from({ length: particleCount }, () => ({
       x: Math.random() * width,
       y: Math.random() * height,
@@ -45,28 +42,23 @@ export default function Background3D() {
     }));
 
     let time = 0;
+    let lastFrame = 0;
+    const targetInterval = 1000 / 30; // Target ~30fps instead of 60fps
 
-    const render = () => {
+    const render = (timestamp) => {
+      animationFrameId = requestAnimationFrame(render);
+
+      // Throttle to ~30fps
+      if (timestamp - lastFrame < targetInterval) return;
+      lastFrame = timestamp;
+
       time += 0.015;
-
-      // Smooth mouse lerp
-      mouse.x += (mouse.targetX - mouse.x) * 0.04;
-      mouse.y += (mouse.targetY - mouse.y) * 0.04;
-
       ctx.clearRect(0, 0, width, height);
 
-      // 1. Render Architectural Dot Grid
-      const gridSize = 36;
-      ctx.fillStyle = 'rgba(255, 255, 255, 0.045)';
-      for (let x = 0; x < width; x += gridSize) {
-        for (let y = 0; y < height; y += gridSize) {
-          ctx.beginPath();
-          ctx.arc(x, y, 1, 0, Math.PI * 2);
-          ctx.fill();
-        }
-      }
+      // Dot grid removed — CSS background-image already draws the grid pattern
+      // This eliminates thousands of ctx.arc() calls per frame
 
-      // 2. Render Gentle Stardust / Ambient Light Dust
+      // Render gentle stardust particles only
       particles.forEach((p) => {
         if (!reduceMotion) {
           p.y += p.speedY;
@@ -84,15 +76,13 @@ export default function Background3D() {
         ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
         ctx.fill();
       });
-
-      animationFrameId = requestAnimationFrame(render);
     };
 
-    render();
+    animationFrameId = requestAnimationFrame(render);
 
     return () => {
       window.removeEventListener('resize', handleResize);
-      window.removeEventListener('mousemove', handleMouseMove);
+      clearTimeout(resizeTimeout);
       cancelAnimationFrame(animationFrameId);
     };
   }, [wallpaperId]);

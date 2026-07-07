@@ -1,34 +1,20 @@
 import { useState, useEffect } from 'react';
 
-// Helper to generate realistic Time, Day, and Date for each card
-function getCardTimestamp(offsetHours = 0) {
-  const d = new Date(Date.now() - offsetHours * 3600 * 1000);
-  const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-  
-  const dayStr = days[d.getDay()];
-  const dateStr = `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()}`;
-  const timeStr = d.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true });
-  
-  return { dayStr, dateStr, timeStr };
+// Format deadline date for display
+function formatDeadlineDate(deadline) {
+  // Job deadlines are text like "Usually March-April" — display as-is
+  return deadline || 'Check official portal';
 }
 
 export default function Jobs() {
   const [jobsData, setJobsData] = useState(null);
   const [activeTab, setActiveTab] = useState('psu');
-  const [lastSync, setLastSync] = useState(() => getCardTimestamp(0).timeStr);
 
   useEffect(() => {
     fetch('/data/jobs.json')
       .then(r => r.json())
       .then(setJobsData)
       .catch(console.error);
-
-    // Simulate real-time polling auto-sync every 60 seconds
-    const interval = setInterval(() => {
-      setLastSync(getCardTimestamp(0).timeStr);
-    }, 60000);
-    return () => clearInterval(interval);
   }, []);
 
   if (!jobsData) return <div className="empty-state"><div className="animate-pulse">Loading job data...</div></div>;
@@ -51,22 +37,22 @@ export default function Jobs() {
         </p>
       </div>
 
-      {/* Live Feed & Trustworthiness Status Banner */}
+      {/* Data Source Status Banner */}
       <div className="card" style={{ marginBottom: 24, background: 'linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(59, 130, 246, 0.05) 100%)', border: '1px solid rgba(16, 185, 129, 0.3)' }}>
         <div className="card__body" style={{ padding: '14px 20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <span className="animate-pulse" style={{ width: 10, height: 10, borderRadius: '50%', background: '#10b981', display: 'inline-block', boxShadow: '0 0 10px #10b981' }} />
+            <span style={{ width: 10, height: 10, borderRadius: '50%', background: '#10b981', display: 'inline-block', boxShadow: '0 0 10px #10b981' }} />
             <div>
               <div style={{ fontSize: 14, fontWeight: 600, color: 'var(--text-primary)' }}>
-                Live PSU & Govt Recruitment Feed Active
+                PSU & Govt Recruitment Database
               </div>
               <div style={{ fontSize: 12, color: 'var(--text-muted)' }}>
-                Last synced: Today at {lastSync} • Auto-refreshing every 60s
+                Curated from official BHEL, ONGC, NTPC, DRDO & IIT portals
               </div>
             </div>
           </div>
           <div style={{ fontSize: 11, color: 'var(--text-secondary)', fontFamily: "'JetBrains Mono', monospace", background: 'rgba(255, 255, 255, 0.05)', padding: '6px 12px', borderRadius: 8, border: '1px solid rgba(255, 255, 255, 0.08)' }}>
-            🛡️ 100% Trustworthy: Direct RSS sync from BHEL, ONGC, NTPC, DRDO & IIT Official Portals
+            🛡️ Verified: Links point to official recruitment portals
           </div>
         </div>
       </div>
@@ -98,12 +84,9 @@ export default function Jobs() {
       {/* Job Cards Grid */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(360px, 1fr))', gap: 18 }}>
         {items.map((job, i) => {
-          // Generate staggered timestamps so cards show recent time, day, and date
-          const { dayStr, dateStr, timeStr } = getCardTimestamp(i * 3 + 1);
-
           return (
             <div key={i} className="card" style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
-              {/* TIME, DAY, AND DATE HEADER ON TOP OF EVERY CARD */}
+              {/* JOB STATUS & DEADLINE HEADER */}
               <div style={{
                 display: 'flex', alignItems: 'center', justifyContent: 'space-between',
                 padding: '8px 16px', background: 'rgba(255, 255, 255, 0.04)',
@@ -111,10 +94,10 @@ export default function Jobs() {
                 fontFamily: "'JetBrains Mono', monospace", color: 'var(--text-muted)'
               }}>
                 <span style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                  <span style={{ color: 'var(--accent-cs)' }}>📅</span> {dayStr}, {dateStr}
+                  <span style={{ color: 'var(--accent-cs)' }}>📅</span> Deadline: {formatDeadlineDate(job.deadline)}
                 </span>
                 <span style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                  <span style={{ color: 'var(--success)' }}>🕒</span> {timeStr} • <span style={{ color: '#4ade80' }}>● Verified</span>
+                  <span style={{ color: job.status.includes('Announced') ? '#4ade80' : 'var(--warning)' }}>● {job.status}</span>
                 </span>
               </div>
 

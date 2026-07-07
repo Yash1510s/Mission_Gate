@@ -1,6 +1,21 @@
 {
   "feed": [
     {
+      "id": "item-1783446481249-438",
+      "date": "2026-07-04",
+      "category": "GATE General",
+      "title": "GATE COAP 2026 - Round 9 Seat Allotment (Out), Registration, Counselling, Eligibility - Careers360",
+      "summary": "GATE COAP 2026 - Round 9 Seat Allotme...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA2TW14SF9wZHVveWZIaHF5SHBURTBTeGN3Qm9nNHUzcm9SX0NuMEJZeWs3eExabFlsUURXQUF1dXVrNUlESW1ZMkRoQk5TcVE1VFNyX1pIbGRhUDcxM1RNR29FNA?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
       "id": "item-1",
       "date": "2026-07-04",
       "category": "PSU & Govt",
@@ -8,7 +23,27 @@
       "summary": "The Indian Air Force has announced a special direct recruitment pathway for Engineering Officers in Technical Branches using GATE 2025 and GATE 2026 scorecards. Candidates with valid scores in CS, DA, ECE, ME, and EE can apply directly without written AFCAT exam.",
       "sourceName": "Indian Air Force Official Portal",
       "url": "https://afcat.cdac.in/AFCAT/",
-      "tags": ["Defence", "Direct Entry", "GATE Score", "Air Force"],
+      "tags": [
+        "Defence",
+        "Direct Entry",
+        "GATE Score",
+        "Air Force"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446619397-804",
+      "date": "2026-07-03",
+      "category": "IIT / IISc",
+      "title": "GATE Cutoff for IISc Bangalore 2026 (Out): Branch-wise MTech Scores - Careers360",
+      "summary": "GATE Cutoff for IISc Bangalore 2026 (Out): Branch-wise MTech Scores Careers360",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwZ0Z6R1BHTnBST3dvNE9xUTBOWDU0WGQxc2pNUlI3emVjUWhJM0l5b213aTVianVwSkFmWGhfSnNZc0xOWi1TQmdfdkwxQXBDTDRmeHVuUDE5MDVCTEIzUGZ4RkdwcXczX3B6dmFrZ09JM1o0RW15dHVDY1JyaTg?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
       "verified": true
     },
     {
@@ -19,7 +54,57 @@
       "summary": "Physics Wallah's GATE Wallah channel has confirmed that their comprehensive Crash Course and Practice Series for GATE 2027 CS & DA will begin streaming live from August 2026. Until then, students are advised to utilize the GATE 2026 crash course playlists.",
       "sourceName": "GATE Wallah Official YouTube",
       "url": "https://www.youtube.com/@GATEWallahbyPW",
-      "tags": ["Crash Course", "Free Lectures", "PW", "YouTube"],
+      "tags": [
+        "Crash Course",
+        "Free Lectures",
+        "PW",
+        "YouTube"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446619397-869",
+      "date": "2026-07-01",
+      "category": "IIT / IISc",
+      "title": "GATE COAP 2026: Additional Rounds, Counselling Process Ongoing, Eligibility, Instructions - Shiksha",
+      "summary": "GATE COAP 2026: Additional Rounds, Counselling Process Ongoing, Eligibility, Instructions Shiksha",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5nd0hUOVh1WmUza0FIVUxjWWFfLTBENHFSM0VnQVZJaXVadG8zMGJjUHFUaC0yTE9uUzNINGxJNUdHWVVMaEtRZzV6VnVhbmUyRU1PbElCazVCZDBiRGpXdHRn?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481249-400",
+      "date": "2026-07-01",
+      "category": "GATE General",
+      "title": "Top 10 Toughest Exams in India 2026, List, Names - Vajiram & Ravi",
+      "summary": "Top 10 Toug...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1pQy1UamlkTmZTS0JWVGhPcGttYmdKcUJlNUhiZVJkNzB4N0Y3TzIxdmtlLVhFWW1XM0piaFNNdVg5TFJDVmV2R084N3Rzc2hIeWJPc1JkcUZtekp6Z1c4WnJPTS1sdmMyM002U2YwTzVIbUlUdVRr?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481250-52",
+      "date": "2026-06-29",
+      "category": "GATE General",
+      "title": "GATE 2027 Exam Dates, Registration August 2026, Eligibility & Fees - KollegeApply News",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQN0FZeFdrUGw0aEtHbmRiX3VTcmJFeHhxd2VPRUY5TkxiOTRINmRKUW5ueHNDbkpFeXJCcko0X1FjQlZpUk5oVlFTNkhTLVdGWkJzaHBBejlEREVhWklTQkZuV01NM242WWVBUTQxZ1NjMHctQUxnb0ZKWWg2R2lKbkpsTmNyR0JCMjNkWC00c1ZRX...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQN0FZeFdrUGw0aEtHbmRiX3VTcmJFeHhxd2VPRUY5TkxiOTRINmRKUW5ueHNDbkpFeXJCcko0X1FjQlZpUk5oVlFTNkhTLVdGWkJzaHBBejlEREVhWklTQkZuV01NM242WWVBUTQxZ1NjMHctQUxnb0ZKWWg2R2lKbkpsTmNyR0JCMjNkWC00c1ZRX0Mybm02ZTlIaDdiQQ?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
       "verified": true
     },
     {
@@ -30,7 +115,27 @@
       "summary": "IIT Bombay has released the notification for PhD and MS by Research admissions for the upcoming semester. GATE qualified candidates in Computer Science and Data Science (DA paper) are eligible for Research Assistantship (RA) positions with monthly stipend of ₹37,000.",
       "sourceName": "IIT Bombay Academic Portal",
       "url": "https://www.iitb.ac.in/newacadhome/toacademic.jsp",
-      "tags": ["IIT Bombay", "M.Tech", "MS by Research", "Stipend"],
+      "tags": [
+        "IIT Bombay",
+        "M.Tech",
+        "MS by Research",
+        "Stipend"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481249-664",
+      "date": "2026-06-24",
+      "category": "GATE General",
+      "title": "How to Upload Photo, Signature in GATE 2027 Registration Form: Steps, Guidelines and Instructions - Shiksha",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQOHhGdXNmaWpCSEsxdHBycjVKQnh0Q2pkUjZkdzVJRnp0a1lZYnVzSjZiNU1uNFBJWS1heUtJMThrV2dqZ2xMeWhjS05ncFVJcVNJdHhXNTd3eFpIMEVjSEZaYmdHM0k3XzhlaUdEbGNFSU83UFZvYWg5bHN3TFFYU2dtN1FsWVprMjdfX1dPNWxfT...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOHhGdXNmaWpCSEsxdHBycjVKQnh0Q2pkUjZkdzVJRnp0a1lZYnVzSjZiNU1uNFBJWS1heUtJMThrV2dqZ2xMeWhjS05ncFVJcVNJdHhXNTd3eFpIMEVjSEZaYmdHM0k3XzhlaUdEbGNFSU83UFZvYWg5bHN3TFFYU2dtN1FsWVprMjdfX1dPNWxfT0xPOWtDT0dOczd1N3JsYnRTdXBkTnNHQzk4WTV3UkR4OV90TEtnWkE?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
       "verified": true
     },
     {
@@ -41,7 +146,42 @@
       "summary": "Leading semiconductor and AI research giants including NVIDIA India and Qualcomm have initiated off-campus R&D hardware/software internship drives, utilizing top percentile GATE CS and DA scorecards as a primary shortlisting criteria for AI/ML and Systems roles.",
       "sourceName": "LinkedIn Tech Careers / Corporate Portals",
       "url": "https://www.nvidia.com/en-in/about-nvidia/careers/",
-      "tags": ["NVIDIA", "Qualcomm", "Private R&D", "AI/ML Jobs"],
+      "tags": [
+        "NVIDIA",
+        "Qualcomm",
+        "Private R&D",
+        "AI/ML Jobs"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446485094-517",
+      "date": "2026-06-23",
+      "category": "PSU & Govt",
+      "title": "Top PSU Recruitment in 2026: Expected Government Jobs Without GATE - PW",
+      "summary": "Top PSU Recruitment in 2026: Expected...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE40R1RYRm5relNFeHl0cy05RmRJeElIVXc4T01CUmlpbkk3N1A1bHA5SVR6bkxNb3RGNFQ2ZGE1OXRYWnlTNVVmb2FSTkJaaWM1T3NSeGFTNWlRXzVoeEdtTE9nQQ?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "PSU Jobs"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481250-426",
+      "date": "2026-06-19",
+      "category": "GATE General",
+      "title": "JEE Main 2027: Exam Date, Syllabus, Pattern, Registration, Eligibility, PYQ - Careers360",
+      "summary": "JEE Main 2027: Exam Date, Sylla...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBnU0ZEMG5feGE3VmpPNlg4UWt5aTZ5U2s2Z3FUNk1vbEoyUjFTUWM5bkxvQ0VEVHBJNzM3ZUdlcFMtWWhnd1p1bEZuakhmOHdIM2ZNWGZqdWgxNXR6VXlMR2l3UTRGNkhz?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
       "verified": true
     },
     {
@@ -52,7 +192,57 @@
       "summary": "Oil and Natural Gas Corporation (ONGC) and Indian Oil (IOCL) have published the interview shortlist for Executive Trainees (Computer Science and Information Technology) based on GATE 2026 scores. Check your login dashboard for interview schedule.",
       "sourceName": "ONGC India Official Website",
       "url": "https://www.ongcindia.com/wps/wcm/connect/en/career/recruitment-notice/",
-      "tags": ["ONGC", "IOCL", "PSU Shortlist", "Executive Trainee"],
+      "tags": [
+        "ONGC",
+        "IOCL",
+        "PSU Shortlist",
+        "Executive Trainee"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481250-722",
+      "date": "2026-06-17",
+      "category": "GATE General",
+      "title": "JEE Advanced Organising Institute: Know Which IIT will Conduct JEE Advanced 2027, 2028 - Shiksha",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOUFZQaGt5ekZVaWdSd1UtdVlHQkF3V2ZqNjNnNlEzZllXR2lKd0xSOXdWU1B3N2RXMkRBTWo4aDdINnNLdEFYLVFVbmVYWnFxVTgwREI3TDJSVHA0azZsUkRMV1o3dXVIUXBLTm8wZFpyUUszLTRsMGdYc0lqZkdZc2duTG1RRU5Fa1d5NTg5ek5KN...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUFZQaGt5ekZVaWdSd1UtdVlHQkF3V2ZqNjNnNlEzZllXR2lKd0xSOXdWU1B3N2RXMkRBTWo4aDdINnNLdEFYLVFVbmVYWnFxVTgwREI3TDJSVHA0azZsUkRMV1o3dXVIUXBLTm8wZFpyUUszLTRsMGdYc0lqZkdZc2duTG1RRU5Fa1d5NTg5ek5KNjIyTkVj?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481249-587",
+      "date": "2026-06-15",
+      "category": "GATE General",
+      "title": "GATE Notification 2027: Release Date, Application, Eligibility & Exam Updates - Careers360",
+      "summary": "GATE Notification 2027:...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sZ3BVMmlSYnZ0OXhhN21GWEluNnA1dXg1d3N6MWhYYTljdGtjb0FFclg5cVdyZ2RIdFVJcXhmWG1iRFhaSl9KbnNybTZlNEJjSTVrZFdyTHJfa0ZTaUt3cnV0Wl9uZnp3TkxrUDRn?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481249-180",
+      "date": "2026-06-12",
+      "category": "GATE General",
+      "title": "GATE 2026 Cutoff for NITs: CCMT Round 1 Cutoff OUT, Check Opening and Closing Rank - Shiksha",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOQTlMRGpvcGdwY0U4cnY4anFWdktVYVoxZ1JSb0pPR1RuMGJZNnZ2MXRYc083MlEydF84M2Uwd3BwS1RWRDFvalBpbklZMW9hTWtKMjEzazl5eC1qQ21OUjlnS1VDQzhHUlZCeFBBMEsyQXhvQVNMa1ZJRnVuSEFKcy1nNVdtQQ?oc=5\" target=\"...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQTlMRGpvcGdwY0U4cnY4anFWdktVYVoxZ1JSb0pPR1RuMGJZNnZ2MXRYc083MlEydF84M2Uwd3BwS1RWRDFvalBpbklZMW9hTWtKMjEzazl5eC1qQ21OUjlnS1VDQzhHUlZCeFBBMEsyQXhvQVNMa1ZJRnVuSEFKcy1nNVdtQQ?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
       "verified": true
     },
     {
@@ -63,7 +253,87 @@
       "summary": "Indian Institute of Science (IISc) Bangalore has announced a 30% increase in seat intake for its premier M.Tech in AI and Data Science programs specifically for aspirants appearing via the GATE DA (Data Science & Artificial Intelligence) paper.",
       "sourceName": "IISc Admissions Portal",
       "url": "https://admissions.iisc.ac.in/",
-      "tags": ["IISc Bangalore", "GATE DA", "Seat Hike", "AI Program"],
+      "tags": [
+        "IISc Bangalore",
+        "GATE DA",
+        "Seat Hike",
+        "AI Program"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481250-203",
+      "date": "2026-06-09",
+      "category": "GATE General",
+      "title": "GATE XL Syllabus 2027- GATE Life Sciences Important Topics With Weightage - Careers360",
+      "summary": "GATE XL...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1sRUFwZ0daY1BXY3NNR0l4U3lmQXRKaVVPYWZEYVgxZkdXeW1ZM3NWNjNJOWozMnJBMG51Y2pGNGkwSU9qVjMxdTFyRlB1WW9WZUdkWGlzdlA4RXdxUTZSUFk2SnJ0bXUtdUpaazQza3A4RC1WdGN2Q1ZR?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481249-461",
+      "date": "2026-06-08",
+      "category": "GATE General",
+      "title": "What is GATE Login 2027: How to Create, Set Password, Submit GATE application form - Shiksha",
+      "summary": "What is G...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5NZG4wSzdRblF4NzRhcWVFcWxSeGFiXy1NM05MUU4tRTJ5ckRlbUlHcVBZVnV3anNVQ19pdmZFQmQ3VzBYY0wwTkphSzhrWW9TNWNpSC1ZazZfZ1RHTFVtUXVVVmdXRElZWnUxbFhPVWt3M0EtWDAtLQ?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446485094-690",
+      "date": "2026-06-08",
+      "category": "PSU & Govt",
+      "title": "Top 5 Highest Paying PSUs for Civil Engineers After GATE - PW",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQMG1KMDduWXJrQi1TZDZ6MGllUTItZnRHenAwZ1h6Mm5HT3NTQzZSQm9pMU4tUm95UWYydGZEZW0ya2Mtd09qYWU1dXl5M3MzVkdBVTJXWmY1dmpzeGl6WTc5ZEtNVUQ5VmxzXzc3R3ZPdVJjMTlfSGpMMzhBbG9TTXUwaFB4bFB3YjVieVpqeGE?o...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMG1KMDduWXJrQi1TZDZ6MGllUTItZnRHenAwZ1h6Mm5HT3NTQzZSQm9pMU4tUm95UWYydGZEZW0ya2Mtd09qYWU1dXl5M3MzVkdBVTJXWmY1dmpzeGl6WTc5ZEtNVUQ5VmxzXzc3R3ZPdVJjMTlfSGpMMzhBbG9TTXUwaFB4bFB3YjVieVpqeGE?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "PSU Jobs"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481249-611",
+      "date": "2026-06-07",
+      "category": "GATE General",
+      "title": "Which IIT sets the toughest GATE Question Paper: Analysis, What to expect in GATE 2027? - Shiksha",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRHQ1M0hVeFR6Z2N2ckp6ZXVaN0hiVzA4bmdZbUZqYmJoYlFQWEgybFZJNGJIR3IzYnR1ZTRiZ0cwb0JDN0lMNHR6UmFDbGdzazNKX195b3AwcDBDT2F2akI0ZmgtNjdFN21PeFk5b3dBODA0bjR4NG9CNVFBSEpKemhwN21HQ2poUlZJZUdhcVdrW...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRHQ1M0hVeFR6Z2N2ckp6ZXVaN0hiVzA4bmdZbUZqYmJoYlFQWEgybFZJNGJIR3IzYnR1ZTRiZ0cwb0JDN0lMNHR6UmFDbGdzazNKX195b3AwcDBDT2F2akI0ZmgtNjdFN21PeFk5b3dBODA0bjR4NG9CNVFBSEpKemhwN21HQ2poUlZJZUdhcVdrWEtINDFwU1A1dDEyNl9Fc3U3a00tb1pVUQ?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481250-250",
+      "date": "2026-06-05",
+      "category": "GATE General",
+      "title": "GATE CSE Syllabus 2027: Subject-Wise Weightage, important Topics, Preparation Tips - Shiksha",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxOYTJiSENRTkRHd1VPdVJnLXZIaTUwdF9jSC10V2xiVWFfVzREMkwyMV8zUXZqdEZES2NITTN0TWlLbU5qSVpyaFgwQmphTkVLMGc0eXRUXy14SkRBU1FJZ25GRGJxX2xrX1IwOGF2TFBQVmdRX09oZ0FIbEVoang0cGRlZEZWWFVWVXRsTm5ELWNJZ...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYTJiSENRTkRHd1VPdVJnLXZIaTUwdF9jSC10V2xiVWFfVzREMkwyMV8zUXZqdEZES2NITTN0TWlLbU5qSVpyaFgwQmphTkVLMGc0eXRUXy14SkRBU1FJZ25GRGJxX2xrX1IwOGF2TFBQVmdRX09oZ0FIbEVoang0cGRlZEZWWFVWVXRsTm5ELWNJZXE5YWVrNjhBaWxTZXIyaFJpTm8xNUdZeThL?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
       "verified": true
     },
     {
@@ -74,7 +344,102 @@
       "summary": "The Ministry of Education and AICTE are reviewing a proposal to increase the monthly postgraduate scholarship (stipend) for GATE-qualified M.Tech/ME students in premier institutes from ₹12,400 to ₹18,000 starting academic year 2026-27.",
       "sourceName": "AICTE Official Bulletin / Education Times",
       "url": "https://www.aicte-india.org/",
-      "tags": ["Stipend Hike", "AICTE", "MoE", "Scholarship"],
+      "tags": [
+        "Stipend Hike",
+        "AICTE",
+        "MoE",
+        "Scholarship"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446485094-16",
+      "date": "2026-06-03",
+      "category": "PSU & Govt",
+      "title": "GATE 2027 All Expected PSU & Central Govt Recruitment - PW",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPQkVGajJTSGktRGc5SGlSR2ZFcjFoUlpLYlZvNy12ck0yYVlKZXd2RGV4OEhia2RidW54U1l4RzFoV1lRNnNLNlFkekRjSHE3YU53QTZRVUZOMkRGMHlETDFfdzdpMFVSbDI1OVJvQzY3WFFHSUZlOHJ3dzlDUWVZMnBKdlFvNjVrb0E?oc=5\" tar...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQkVGajJTSGktRGc5SGlSR2ZFcjFoUlpLYlZvNy12ck0yYVlKZXd2RGV4OEhia2RidW54U1l4RzFoV1lRNnNLNlFkekRjSHE3YU53QTZRVUZOMkRGMHlETDFfdzdpMFVSbDI1OVJvQzY3WFFHSUZlOHJ3dzlDUWVZMnBKdlFvNjVrb0E?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "PSU Jobs"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446619397-732",
+      "date": "2026-06-01",
+      "category": "IIT / IISc",
+      "title": "IISc Bangalore JEE Advanced Cutoff 2026 - Check BTech Opening and Closing Rank - Careers360",
+      "summary": "IISc Bangalore JEE Advanced Cutoff 2026 - Check BTech Opening and Closing Rank Careers360",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQzNESVZycEloblNvUHdJU2JHNEVtQy1EWTZYT01uMUhudVR1cGg5U1hSNjVndTFRRGk5WmZTVWdsdnIxMkVfMnZFYzBzeDBWQUNzU3N1bUxER3FHSGFuR0VudHc3dUVxa2Z4UXNUNGFuZDJXM1NERTc5UEFLM2ZDangyQlo?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481249-713",
+      "date": "2026-06-01",
+      "category": "GATE General",
+      "title": "GATE 2027: Notification, Exam Dates, Registration, Eligibility, Syllabus, Pattern, Books - Shiksha",
+      "summary": "G...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBMUmEyV2hhSXY0WFEtNzRKVnl3ZFZXYmYza082enpRSGR5ZXZDc19VNnpYRGMzcVl3OTFYVEt1Q1l4NXl2MWZSRVItOWt1X3VueWlhWlFuQm5Yd0pVNVJjWTVPLVl5X1JuZ0M0ckdNTG80REl4SVQwUUVrdENXQQ?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481249-526",
+      "date": "2026-06-01",
+      "category": "GATE General",
+      "title": "GATE Eligibility Criteria 2027: Qualification, Age Limit, Nationality - PW",
+      "summary": "GATE Eligibility Criteria 2027: ...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1EU3JXenVfQlhackZobHgtaE9MenVqSWJWQUVRTWZteDhjNkI2LUkwRm1xTjR2U0UxeXc5VTlIRzRVdnBsM05KQmJmTG51VHFETHBoNzk1eU9KeFJBQ19keWtxWnRvRzA?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481249-849",
+      "date": "2026-06-01",
+      "category": "GATE General",
+      "title": "When will GATE 2027 Exam be Conducted: Registration Date, Eligibility, Pattern - Shiksha",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOdTZmc19SUTBoSTBUemtKZ2FBRjhCTXVTSnlwaE5GWXR2TEFYUzcyVUNvd2ZiM29ndjJjR3lFenJLckZBWEV6VU5QdG5vMS1UdjB0ek00YlhGV3hmSlRsMWQ0OS1VRXk1eFMyX19KTmZxMU8yZjMwNjNha29Ib3N0a01mNkxDbFhBWHNCejlEOG5VL...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdTZmc19SUTBoSTBUemtKZ2FBRjhCTXVTSnlwaE5GWXR2TEFYUzcyVUNvd2ZiM29ndjJjR3lFenJLckZBWEV6VU5QdG5vMS1UdjB0ek00YlhGV3hmSlRsMWQ0OS1VRXk1eFMyX19KTmZxMU8yZjMwNjNha29Ib3N0a01mNkxDbFhBWHNCejlEOG5VLXFuWF80VzV4amo?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481249-624",
+      "date": "2026-06-01",
+      "category": "GATE General",
+      "title": "GATE 2027 Registration Date: Start and Last Date, Fees, Who can Apply, Steps - Shiksha",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPN1F3Z0Q0ZFhWYm90RVJPLXkzWkU5M2gyRUk4Zi1MQ2RDZEtjLTlvLTRVa0hwS1k2OERsTlRoUlZsUkpVTFplcXpjUThNcmNpRDNzLWNVVnZWaC1uZlM0eklGM1VMZXhqUFBDSHJpRDE2bllPd1VXb3dDVndJcWNIVnJVNjVpaGR3UXdrbVBrdw?oc...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPN1F3Z0Q0ZFhWYm90RVJPLXkzWkU5M2gyRUk4Zi1MQ2RDZEtjLTlvLTRVa0hwS1k2OERsTlRoUlZsUkpVTFplcXpjUThNcmNpRDNzLWNVVnZWaC1uZlM0eklGM1VMZXhqUFBDSHJpRDE2bllPd1VXb3dDVndJcWNIVnJVNjVpaGR3UXdrbVBrdw?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
       "verified": true
     },
     {
@@ -85,7 +450,87 @@
       "summary": "NPTEL (National Programme on Technology Enhanced Learning) has opened enrollment for July-Dec 2026 semester courses in Deep Learning, Compiler Design, and Advanced Algorithms, directly mapped to GATE CS & DA syllabus.",
       "sourceName": "NPTEL / SWAYAM Portal",
       "url": "https://swayam.gov.in/nc_details/NPTEL",
-      "tags": ["NPTEL", "IIT Certification", "Free Courses", "SWAYAM"],
+      "tags": [
+        "NPTEL",
+        "IIT Certification",
+        "Free Courses",
+        "SWAYAM"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481250-751",
+      "date": "2026-05-25",
+      "category": "GATE General",
+      "title": "GATE 2026 Cutoff for IISc Bangalore (OUT): CSE, ECE, ME, CE, and DA Qualifying Scores - Shiksha",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPVDdmOFFXMjhHenIwODI0VmJyamlobnZCWi10eGNOYktKcEQ2VGxwUXRiYWNpd2pMUU9RSmFGaVBRWGtVN2ZNaG1GQWF1aTExVzYyQ2hSeTBuTF9mdS1hVG5CLWZCeDFReUs2Q0hLT3l2bHhFQWhxWlJDcWM3TDYwdDRtSmZkMVlncUNUQ1ZwU1l5N...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVDdmOFFXMjhHenIwODI0VmJyamlobnZCWi10eGNOYktKcEQ2VGxwUXRiYWNpd2pMUU9RSmFGaVBRWGtVN2ZNaG1GQWF1aTExVzYyQ2hSeTBuTF9mdS1hVG5CLWZCeDFReUs2Q0hLT3l2bHhFQWhxWlJDcWM3TDYwdDRtSmZkMVlncUNUQ1ZwU1l5N2RKQ1hXa05SdGJOUnB5?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481250-707",
+      "date": "2026-05-25",
+      "category": "GATE General",
+      "title": "UCEED, CEED 2027 exam dates announced by IIT Bombay; registration details to be released soon - The Times of India",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_AFBVV95cUxOc3RSSW9TMXU1eVJ3a3lGYkk2R0dQWXlRU1pndDhEVzFTYllER0NRbVZNS25MckN2WTU0d0d3ZGNPRlJ1TDhHTzZUdm1mSURmblVSd3ZZNnhPNTlWMWdQMHlPRXpnQWpVM2RKR1g1ZEdQQmFZQUp1a2xDQjVWNGhPbFhVN2wyZ20yOTRZdVhIb1ZQM...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOc3RSSW9TMXU1eVJ3a3lGYkk2R0dQWXlRU1pndDhEVzFTYllER0NRbVZNS25MckN2WTU0d0d3ZGNPRlJ1TDhHTzZUdm1mSURmblVSd3ZZNnhPNTlWMWdQMHlPRXpnQWpVM2RKR1g1ZEdQQmFZQUp1a2xDQjVWNGhPbFhVN2wyZ20yOTRZdVhIb1ZQMl8tQW5IRXZuSjJvcVFtMEpTUzN3M1pwdzRVcHBTSnZmcWdTZ1Jkc09hTWwxcEVha29VbThfVkJBZElPV3pLRWNNWWlXSGRNNmQ3bnhyQ3FMa0hKSUV4QVhrZkVaNEFWRjZVWWlmYUVyWXXSAYICQVVfeXFMTW5oNm52VG55QmZoMTctbExSM21famMzbWFRZ1l3TUlOc0ZKR0pHa1RQRXdXc19OT3lWSGFiaGs5OE11UFBfY0p6cXVHT3Z1WlBwcm9RV2dBX09XY3U0SG1MRVJRZ3hKak5TbllUbFBtTHFqTldMR3VKdG9HUEQ5RHB3ZkpMWXkxY3VkcVhZU1EwWlZCRnRnejd0ZWg1SDdfYVROd2ZFaEphWGdmaExybXFLX0dBRm1yS25NNGIxU1lBSE44WlhMbkhiTVVUNV90THQ5a2hmRGpQSzdnLWh5aDZaNXRXWld5ZXNsaVBHRlJDeG5uU3B3el80NHJESXdHN2ZR?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481250-966",
+      "date": "2026-05-20",
+      "category": "GATE General",
+      "title": "GATE ECE Syllabus 2027 – PDF Release Soon, Start Preparation with Previous Year Syllabus - PW",
+      "summary": "GATE ECE Syllabus 2027 – PDF Release Soon, Star...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5BU055YzhuTzI1SnhRQWtkZWpBTVBOWExVQ1RWb3ByN1gwSlJoaEdScExvR3lFSHJManAyRlgxRFBuWmVhaUg3cm5hb0U0Q1o3RzhMZVpUTmV3ckJH?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446485094-41",
+      "date": "2026-05-20",
+      "category": "PSU & Govt",
+      "title": "Future of GATE Exam for PSU Jobs: PSUs Conducting Their Own Exams? - PW",
+      "summary": "Future of GATE Exam ...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50Z09xMUZhaWZ0SjNyT01rTEcwYS1zVWtINzRWdEx0NWlybmlMUE94WFVmaXE4Vlg1VjlwdHd0LU1DdEFiRGI3bndyU1AzNHlSUWVJSTB0QzV3b2FSbkJrbXM3RmV6N0F4VTh3bEhKb00?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "PSU Jobs"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481249-707",
+      "date": "2026-05-18",
+      "category": "GATE General",
+      "title": "GATE 2026 Seat Matrix: Total Intake for IITs & NITs, Reservation Criteria - Shiksha",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxNaHNrUjc5dHZqTkI3Uzd0aTNScDc4TmxJQVZHWjdMTGZhVXNENElYeDh3N0U4dFVKNUpHTWFFdEh4X0JRdWZnblRnUm00M2JUNFh4b3pYOVJZQXRZSnlwTHcxcHdQZGxESXYtamxlcEtOUjdVcUlsNHpqM2FOalNBMQ?oc=5\" target=\"_blank\"&...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaHNrUjc5dHZqTkI3Uzd0aTNScDc4TmxJQVZHWjdMTGZhVXNENElYeDh3N0U4dFVKNUpHTWFFdEh4X0JRdWZnblRnUm00M2JUNFh4b3pYOVJZQXRZSnlwTHcxcHdQZGxESXYtamxlcEtOUjdVcUlsNHpqM2FOalNBMQ?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
       "verified": true
     },
     {
@@ -96,7 +541,12 @@
       "summary": "Defence Research and Development Organisation (DRDO) RAC and Bhabha Atomic Research Centre (BARC) OCES/DGFS programs have announced upcoming notification dates for Scientist 'B' posts accepting GATE CS and DA scorecards.",
       "sourceName": "DRDO RAC Portal / BARC Online Exam",
       "url": "https://rac.gov.in/",
-      "tags": ["DRDO", "BARC", "Scientist B", "Research"],
+      "tags": [
+        "DRDO",
+        "BARC",
+        "Scientist B",
+        "Research"
+      ],
       "verified": true
     },
     {
@@ -107,7 +557,207 @@
       "summary": "Tata Consultancy Services (TCS) Innovation Labs has opened applications for Research Scientist and Systems Engineer roles, offering special direct interview opportunities for candidates with top 500 AIR in GATE CS or DA.",
       "sourceName": "TCS Careers Portal",
       "url": "https://www.tcs.com/careers/india",
-      "tags": ["TCS Research", "Direct Interview", "AIR Top 500", "Private Tech"],
+      "tags": [
+        "TCS Research",
+        "Direct Interview",
+        "AIR Top 500",
+        "Private Tech"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481249-204",
+      "date": "2026-04-29",
+      "category": "GATE General",
+      "title": "GATE 2026: Scorecard (Out), Toppers, Result, Cutoff, Counselling, Answer Key - Careers360",
+      "summary": "GATE 2026: Scorecard (Out), Toppers, ...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB3T0hUZXN4YW1lV3dVd2Rzd0xWbU5CeXRYcFZzU3E5MGJNYUlURTJ6T1h5bThocHdrMlFERkF0a2wyT0JBUDM5U3l2Si1FdkEyOTkzX1dyVjZNT0NjV0lkaVFNQQ?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481250-14",
+      "date": "2026-04-27",
+      "category": "GATE General",
+      "title": "Best Books for GATE 2027: Check Top Rated IIT GATE books for All Subjects - Careers360",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOV1dCM1Y0QVprSjJDWkxyZjktU2c5NDRmTFhZVTlYcGU1U2FZSlVvQ0tSS2RKaXUwMEZBYy1hdU5OVzVXcE0wRGd4VXlLUmFZZTMwOGdRdnR6TXEtTDM1Rmo0RGQweDhTeENfLTZVXy1tcUgxRkJ4QXlQVFI2d2lTX3VvdGFSc2R5alM4Tw?oc=5\" ...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOV1dCM1Y0QVprSjJDWkxyZjktU2c5NDRmTFhZVTlYcGU1U2FZSlVvQ0tSS2RKaXUwMEZBYy1hdU5OVzVXcE0wRGd4VXlLUmFZZTMwOGdRdnR6TXEtTDM1Rmo0RGQweDhTeENfLTZVXy1tcUgxRkJ4QXlQVFI2d2lTX3VvdGFSc2R5alM4Tw?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446619397-546",
+      "date": "2026-04-20",
+      "category": "IIT / IISc",
+      "title": "List of Colleges Accepting GATE Score: IITs, NITs, COAP and CCMT Institutes - PW",
+      "summary": "List of Colleges Accepting GATE Score: IITs, NITs, COAP and CCMT Institutes PW",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10MzFPVndmOTdRUW5NZVNVcDNib21lc1pNQ2dzckxJeU9hQ2NJS2gwU1dnV0tCQWEyeVVYU3pEbkhVR1NMcGdsTWRkY0s1RmRUUzFyU0NQMEpMNUd1ZEt4ajc4M3J5MWRFZ2poQg?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446485094-923",
+      "date": "2026-04-20",
+      "category": "PSU & Govt",
+      "title": "Is GATE Chemical Engineering Worth It in 2026-27? Scope, Salary & Career Benefits - PW",
+      "summary": "Is GATE Che...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1qZ1VuY0ptV1RWSDlTamMyN05saS1rR3lpTVRMTXpicUdTOHdkOTc4cUZFdkFhQ01odlZfWEVpeUI3Q25RSWpNUm1XQ1dyTHVnTFZxOEZOWVZBWE9Wa2xfRlZHWS1GZUNQUkRNTTBxbzZZblUxU3E4?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "PSU Jobs"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446619397-424",
+      "date": "2026-04-17",
+      "category": "IIT / IISc",
+      "title": "IISc M.Tech Without GATE: Eligibility, Fees, Admission 2026 and Selection Process - Careers360",
+      "summary": "IISc M.Tech Without GATE: Eligibility, Fees, Admission 2026 and Selection Process Careers360",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZXhxMTVSSHNsRkxOZzY3WlhlQmRHdVFUdmxac1pKbEJBQnc4WWcwMEpCbTQ0dW1FVzN0QklwX2o0ZEFqdld2M2RCMGFramVvc1Qwb1JWZTdEVHl5ZWliak5mZl9yUDBQRDdOejhvRjZmQ0xOdUZ6cHBfc1gxeXRWSkhR?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446619397-746",
+      "date": "2026-04-09",
+      "category": "IIT / IISc",
+      "title": "Best M.Tech Courses in IITs: Placement Trends & Admission Strategy - PW",
+      "summary": "Best M.Tech Courses in IITs: Placement Trends & Admission Strategy PW",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92cUk0M1dEQXVRc290NjdDckZPLVBMUlVjRmFaOG5vR2h1dHRSWFcxSS00VUZBbkJHNmgwZUFRQlFsd0I2Z3hSNEJlOVVGbEYzWDNBQnpUMThXcjI1MGJUZEhOWEl2ZmFB?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446619397-427",
+      "date": "2026-04-06",
+      "category": "IIT / IISc",
+      "title": "IISc Bangalore M.Tech Admission 2026 - Application Form (Out), Admission Dates, Eligibility Criteria, Cut Off - Careers360",
+      "summary": "IISc Bangalore M.Tech Admission 2026 - Application Form (Out), Admission Dates, Eligibility Criteria, Cut Off Careers360",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeTkzdlYtdER6Z05BOUhLWXE0YXRiQ0VGU2JFQjdjZGI3QXEzcWU1UFJlMGg1bmMyQTZXQkxCd2xHWHFGOTljWVc5dnlWWDBCTDdjcUZ5bjFoY3ROUFZHRVdmZEJ4UlFCTkpKN09GWU9RZkZQZFZHR19kcHh0MFR3Qw?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446619397-700",
+      "date": "2026-04-04",
+      "category": "IIT / IISc",
+      "title": "IIT M.Tech Admission with Low GATE Score 2026: Top 10 IITs, Cut-Offs & Strategy - PW",
+      "summary": "IIT M.Tech Admission with Low GATE Score 2026: Top 10 IITs, Cut-Offs & Strategy PW",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLWxBbnFlNVFmdDJMSlVuSkFvZHRqYVlDekotVERxMExhdXVfanMzUTJUR0ZtRVF2NkZ2anNuVkdMOGphT2N3eWV4WEJtcVFDaHBoeHFRU3JfeFVuaEVoSU12SF9uN2J4X2hjU09ZY0xIQXM5MzNZRGlDTW9ldm1taA?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446619397-125",
+      "date": "2026-04-02",
+      "category": "IIT / IISc",
+      "title": "MTech Admission 2026 with Low GATE Score: COAP, IIT Cutoffs & CCMT Strategy - PW",
+      "summary": "MTech Admission 2026 with Low GATE Score: COAP, IIT Cutoffs & CCMT Strategy PW",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1fdzA0cnpqWVpncWthMVlwUHk5R3A0cE1GcTBzSkM5UEhBUUZrMFVyelJaT21CemRQSWNkSGFGeENfdnMyaDZWZTlPbXRrMjA0Y09XWXB0WE9Kb09XSXh3akZSWW1mdzF0dmRNREZCR3VrVzVkSXJPb19zVQ?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481250-762",
+      "date": "2026-04-02",
+      "category": "GATE General",
+      "title": "GATE 2027 Exam Dates Expected Soon, Check Tentative Schedule - KollegeApply News",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNRVpCbnVXMmpENTEtck82LXJSY3hFSG9iNlp1Zm9ZUU9ZZjFVLV90QWc2M2xoZ2RpTFlxVFhvR1I4NUxfcGlqd1VwbzdRRnRGekkyMFlGcFVTRGpwWWNlM3RJS1dEa2JleWRHX3NZZnVpQjVlNVVSV2ttWWZKT18wSzBQQzdFYnZQWjJ0MDFNM3NHM...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRVpCbnVXMmpENTEtck82LXJSY3hFSG9iNlp1Zm9ZUU9ZZjFVLV90QWc2M2xoZ2RpTFlxVFhvR1I4NUxfcGlqd1VwbzdRRnRGekkyMFlGcFVTRGpwWWNlM3RJS1dEa2JleWRHX3NZZnVpQjVlNVVSV2ttWWZKT18wSzBQQzdFYnZQWjJ0MDFNM3NHM19Ta25USXdR?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446659748-399",
+      "date": "2026-04-01",
+      "category": "PSU & Govt",
+      "title": "PSU Jobs Through GATE After M.Tech & PhD in Chemical Engineering - PW",
+      "summary": "PSU Jobs Through GATE After M.Tech & PhD in Chemical Engineering PW",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQk0xeTNuVHZ1RGhINEFhdGpWQVdtWjRZOVlDWUFPeXJGOW9Cd3JaOTFYT0E2NVlsRlAydEh4UHlfeGozQUNoSHpaSTR2elo1ZUtFMG5UakNrLU5hZDFVRWd0cUZLbGxGREFReGxhVE5jMWJDX0VwTERPd0stdjd0OThGdUVuVnJMRzd1N1VsNFF0N3V4VFlDOA?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "PSU Jobs"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481249-832",
+      "date": "2026-04-01",
+      "category": "GATE General",
+      "title": "Which IIT Will Conduct GATE 2027? Check Official Details - Careers360",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPTGxFbXNxeEJlOFhJWjdUUVptei05UE9wSHBVMWRIVWNwSFNTUEN5WU9Kcm5qZnRYTTRWdllhTEZ1d05hUkhieGhaenh5SUJRYjQwakdNaHRZV09kS1hwTTFLWEZ3anl6c0xxeXJLYUY2S24wUUlFNnRNbFFFOXNjd0VuMHBydGpwNEF4RTJDWjBnZ...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTGxFbXNxeEJlOFhJWjdUUVptei05UE9wSHBVMWRIVWNwSFNTUEN5WU9Kcm5qZnRYTTRWdllhTEZ1d05hUkhieGhaenh5SUJRYjQwakdNaHRZV09kS1hwTTFLWEZ3anl6c0xxeXJLYUY2S24wUUlFNnRNbFFFOXNjd0VuMHBydGpwNEF4RTJDWjBnZjZZVHVERFQ4YlBKQnJV?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1783446481249-45",
+      "date": "2026-04-01",
+      "category": "GATE General",
+      "title": "GATE 2027 Exam Dates: Tentative Schedule, Conducting IIT, What to expect this year - Shiksha",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxNUE1VTW5qZnkxdzVlQXRDTUFKSGhHdjNGbUFSWjRkSHNZQkZyb1VRVzI0QzBVWnV2c21pYllxU0FnTUp6Y21hN09rLWc2clNVUW5YUHBlSWZiZmhkdEpvMnhvRHEtU1NUZEFLSTVocFFnT0xTbEE5U08wNVA1cExKYUxKNzA3VjR0elBoVmcxcGFMT...",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUE1VTW5qZnkxdzVlQXRDTUFKSGhHdjNGbUFSWjRkSHNZQkZyb1VRVzI0QzBVWnV2c21pYllxU0FnTUp6Y21hN09rLWc2clNVUW5YUHBlSWZiZmhkdEpvMnhvRHEtU1NUZEFLSTVocFFnT0xTbEE5U08wNVA1cExKYUxKNzA3VjR0elBoVmcxcGFMTzQ0S25mZ21IWkt1dFplWVlVcW1zb3ZJNDBKMnZ0WVkwcVQ4dkxaRjg5ejlSQWNQSTF0MkE2Z0s2UjFiQkE?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
       "verified": true
     }
   ]

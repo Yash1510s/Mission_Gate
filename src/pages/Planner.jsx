@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useSettingsStore } from '../stores/useSettingsStore';
 
 const scheduleTemplates = {
   cs: {
@@ -76,8 +77,7 @@ export default function Planner() {
   const [pomoCount, setPomoCount] = useState(0);
 
   // GATE 2027 Countdown
-  const targetDate = new Date('2027-02-07T09:00:00');
-  const daysLeft = Math.max(0, Math.ceil((targetDate - new Date()) / (1000 * 60 * 60 * 24)));
+  const daysLeft = useSettingsStore(s => s.getDaysUntilExam)();
 
   useEffect(() => {
     let timer;
@@ -128,7 +128,7 @@ export default function Planner() {
       {/* Page Header & Live Countdown */}
       <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', flexWrap: 'wrap', gap: 16, marginBottom: 28 }}>
         <div>
-          <p className="page-header__eyebrow">Phase 3 — Custom AI Timetable & Study Hub</p>
+          <p className="page-header__eyebrow">Custom AI Timetable & Study Hub</p>
           <h1 className="page-header__title">AI Study Planner & Reminders</h1>
           <p className="page-header__subtitle">
             Generate customized timetables based on remaining days to GATE, track daily study goals, and use the built-in Pomodoro timer.
@@ -152,7 +152,7 @@ export default function Planner() {
             <span style={{ fontSize: 22 }}>⚡</span>
             <h3 style={{ margin: 0, fontSize: 18 }}>AI Custom Timetable Generator</h3>
           </div>
-          <span className="tag tag--cs">Phase 3 Engine</span>
+          <span className="tag tag--cs">AI Engine</span>
         </div>
         <div className="card__body" style={{ padding: '22px 24px' }}>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: 20, marginBottom: 20 }}>

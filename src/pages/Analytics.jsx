@@ -19,7 +19,7 @@ export default function Analytics() {
   }, []);
 
   if (!syllabus) {
-    return <div className="empty-state"><div className="animate-pulse">Loading Phase 4 Analytics...</div></div>;
+    return <div className="empty-state"><div className="animate-pulse">Loading Analytics...</div></div>;
   }
 
   const csCounts = getPaperCounts(syllabus, 'cs');
@@ -71,7 +71,7 @@ export default function Analytics() {
     <div>
       <div className="page-header" style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', flexWrap: 'wrap', gap: 16 }}>
         <div>
-          <p className="page-header__eyebrow">Phase 4 — AI Score Predictor & Heatmaps</p>
+          <p className="page-header__eyebrow">AI Score Predictor & Heatmaps</p>
           <h1 className="page-header__title">Performance Analytics Hub</h1>
           <p className="page-header__subtitle">
             AI-driven GATE score estimation, subject-wise strength/weakness heatmaps, and 30-day consistency tracking.

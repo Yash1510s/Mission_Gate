@@ -391,7 +391,7 @@ export default function Mocks() {
     return (
       <div>
         <div className="page-header">
-          <p className="page-header__eyebrow">Phase 4 — Custom Topic-Wise & CBT Studio</p>
+          <p className="page-header__eyebrow">Custom Topic-Wise & CBT Studio</p>
           <h1 className="page-header__title">GATE Mock Test Simulator</h1>
           <p className="page-header__subtitle">
             Generate customized topic-wise practice tests or take full-length official TCS iON CBT mock exams with real marking schemes (+2 / -0.66).

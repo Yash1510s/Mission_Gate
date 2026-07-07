@@ -8,34 +8,31 @@ const typeStyles = {
   general: { bg: 'var(--glass)', color: 'var(--text-secondary)', label: 'UPDATE' },
 };
 
-// Helper to generate realistic Time, Day, and Date
-function getCardTimestamp(offsetHours = 0) {
-  const d = new Date(Date.now() - offsetHours * 3600 * 1000);
+// Format the actual date from JSON data
+function formatUpdateDate(dateString) {
+  const d = new Date(dateString + 'T12:00:00');
   const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   
   const dayStr = days[d.getDay()];
   const dateStr = `${d.getDate()} ${months[d.getMonth()]} ${d.getFullYear()}`;
-  const timeStr = d.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true });
   
-  return { dayStr, dateStr, timeStr };
+  const now = new Date();
+  const diffMs = now - d;
+  const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+  const agoStr = diffDays === 0 ? 'Today' : diffDays === 1 ? 'Yesterday' : `${diffDays}d ago`;
+  
+  return { dayStr, dateStr, agoStr };
 }
 
 export default function Updates() {
   const [newsData, setNewsData] = useState(null);
-  const [lastSync, setLastSync] = useState(() => getCardTimestamp(0).timeStr);
 
   useEffect(() => {
     fetch('/data/news.json')
       .then(r => r.json())
       .then(setNewsData)
       .catch(console.error);
-
-    // Simulate live polling auto-refresh every 60 seconds
-    const interval = setInterval(() => {
-      setLastSync(getCardTimestamp(0).timeStr);
-    }, 60000);
-    return () => clearInterval(interval);
   }, []);
 
   if (!newsData) return <div className="empty-state"><div className="animate-pulse">Loading updates...</div></div>;
@@ -52,22 +49,22 @@ export default function Updates() {
         </p>
       </div>
 
-      {/* Live Sync Status & Trustworthiness Banner */}
+      {/* Data Source Status Banner */}
       <div className="card" style={{ marginBottom: 24, background: 'linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(59, 130, 246, 0.05) 100%)', border: '1px solid rgba(16, 185, 129, 0.3)' }}>
         <div className="card__body" style={{ padding: '14px 20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <span className="animate-pulse" style={{ width: 10, height: 10, borderRadius: '50%', background: '#10b981', display: 'inline-block', boxShadow: '0 0 10px #10b981' }} />
+            <span style={{ width: 10, height: 10, borderRadius: '50%', background: '#10b981', display: 'inline-block', boxShadow: '0 0 10px #10b981' }} />
             <div>
               <div style={{ fontSize: 14, fontWeight: 600, color: 'var(--text-primary)' }}>
-                Live IIT & IISc Official Bulletin Sync Active
+                Official GATE Bulletin & Schedule
               </div>
               <div style={{ fontSize: 12, color: 'var(--text-muted)' }}>
-                Last checked: Today at {lastSync} • Polling organizing committee portal every 60s
+                Sourced from GATE Organizing Committee & IIT official portals
               </div>
             </div>
           </div>
           <div style={{ fontSize: 11, color: 'var(--text-secondary)', fontFamily: "'JetBrains Mono', monospace", background: 'rgba(255, 255, 255, 0.05)', padding: '6px 12px', borderRadius: 8, border: '1px solid rgba(255, 255, 255, 0.08)' }}>
-            🛡️ 100% Trustworthy: Verified directly against GATE Organizing Committee Bulletins
+            🛡️ Verified against official GATE committee bulletins
           </div>
         </div>
       </div>
@@ -77,11 +74,11 @@ export default function Updates() {
       <div style={{ display: 'flex', flexDirection: 'column', gap: 16, marginBottom: 32 }}>
         {updates.map((update, i) => {
           const style = typeStyles[update.type] || typeStyles.general;
-          const { dayStr, dateStr, timeStr } = getCardTimestamp(i * 4 + 2);
+          const { dayStr, dateStr, agoStr } = formatUpdateDate(update.date);
 
           return (
             <div key={i} className="card" style={{ overflow: 'hidden' }}>
-              {/* TIME, DAY, AND DATE HEADER ON TOP OF EVERY CARD */}
+              {/* ACTUAL DATE HEADER */}
               <div style={{
                 display: 'flex', alignItems: 'center', justifyContent: 'space-between',
                 padding: '8px 16px', background: 'rgba(255, 255, 255, 0.04)',
@@ -92,7 +89,7 @@ export default function Updates() {
                   <span style={{ color: 'var(--accent-cs)' }}>📅</span> {dayStr}, {dateStr}
                 </span>
                 <span style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                  <span style={{ color: 'var(--success)' }}>🕒</span> {timeStr} • <span style={{ color: '#4ade80' }}>● Official IIT Notice</span>
+                  <span style={{ color: 'var(--success)' }}>🕒</span> {agoStr} • <span style={{ color: '#4ade80' }}>● Official IIT Notice</span>
                 </span>
               </div>
 
@@ -126,10 +123,10 @@ export default function Updates() {
           fontFamily: "'JetBrains Mono', monospace", color: 'var(--text-muted)'
         }}>
           <span style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-            <span style={{ color: 'var(--accent-cs)' }}>📅</span> {getCardTimestamp(1).dayStr}, {getCardTimestamp(1).dateStr}
+            <span style={{ color: 'var(--accent-cs)' }}>📅</span> GATE 2027 Timeline
           </span>
           <span style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-            <span style={{ color: 'var(--success)' }}>🕒</span> {getCardTimestamp(1).timeStr} • <span style={{ color: '#4ade80' }}>● Master Schedule</span>
+            <span style={{ color: '#4ade80' }}>● Master Schedule</span>
           </span>
         </div>
         <div className="card__body">
@@ -176,7 +173,7 @@ export default function Updates() {
             borderBottom: '1px solid rgba(255, 255, 255, 0.08)', fontSize: 11,
             fontFamily: "'JetBrains Mono', monospace", color: 'var(--text-muted)'
           }}>
-            <span>📅 {getCardTimestamp(3).dayStr}, {getCardTimestamp(3).dateStr}</span>
+            <span>📅 Official GATE Exam Pattern</span>
             <span style={{ color: '#4ade80' }}>● Exam Pattern</span>
           </div>
           <div className="card__header"><h4>Section Breakdown</h4></div>
@@ -200,7 +197,7 @@ export default function Updates() {
             borderBottom: '1px solid rgba(255, 255, 255, 0.08)', fontSize: 11,
             fontFamily: "'JetBrains Mono', monospace", color: 'var(--text-muted)'
           }}>
-            <span>📅 {getCardTimestamp(4).dayStr}, {getCardTimestamp(4).dateStr}</span>
+            <span>📅 Official Marking Scheme</span>
             <span style={{ color: '#f87171' }}>● Marking Rules</span>
           </div>
           <div className="card__header"><h4>⚠️ Question Types & Negative Marking</h4></div>

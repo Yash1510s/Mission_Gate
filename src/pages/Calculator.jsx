@@ -139,7 +139,7 @@ export default function Calculator() {
   return (
     <div>
       <div className="page-header">
-        <p className="page-header__eyebrow">Phase 4 — Official TCS iON Tool</p>
+        <p className="page-header__eyebrow">Official TCS iON Tool</p>
         <h1 className="page-header__title">Virtual GATE Scientific Calculator</h1>
         <p className="page-header__subtitle">
           In actual GATE CBT exams, physical calculators are strictly prohibited. Master this on-screen scientific calculator to calculate numerical answers effortlessly!
