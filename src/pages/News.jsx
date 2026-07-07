@@ -26,9 +26,31 @@ function formatNewsDate(dateString) {
   return { dayStr, dateStr, agoStr };
 }
 
+// Check if date string is within the selected time range
+function isWithinTimeRange(dateStr, range) {
+  if (range === 'All Time' || !dateStr) return true;
+  
+  const itemDate = new Date(dateStr + 'T12:00:00');
+  const now = new Date();
+  const diffMs = now - itemDate;
+  const diffDays = diffMs / (1000 * 60 * 60 * 24);
+
+  if (range === 'Last 24h 🔥') {
+    return diffDays <= 1.5 && diffDays >= -1;
+  }
+  if (range === 'Last 7 Days 📅') {
+    return diffDays <= 7.5 && diffDays >= -1;
+  }
+  if (range === 'Last 30 Days 🗓️') {
+    return diffDays <= 30.5 && diffDays >= -1;
+  }
+  return true;
+}
+
 export default function News() {
   const [feedData, setFeedData] = useState([]);
   const [activeCat, setActiveCat] = useState('All');
+  const [activeTimeRange, setActiveTimeRange] = useState('All Time');
   const [searchQuery, setSearchQuery] = useState('');
   const [bookmarked, setBookmarked] = useState(() => {
     try {
@@ -57,6 +79,7 @@ export default function News() {
   const categories = ['All', 'IIT / IISc', 'PSU & Govt', 'Private Jobs', 'Courses & Prep', 'General Alerts', 'Bookmarked ⭐'];
 
   const filtered = feedData.filter(item => {
+    if (!isWithinTimeRange(item.date, activeTimeRange)) return false;
     if (activeCat === 'Bookmarked ⭐') {
       if (!bookmarked[item.id]) return false;
     } else if (activeCat !== 'All' && item.category !== activeCat) {
@@ -103,7 +126,7 @@ export default function News() {
       </div>
 
       {/* Category Tabs & Search Bar */}
-      <div style={{ display: 'flex', gap: 12, marginBottom: 24, flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between' }}>
+      <div style={{ display: 'flex', gap: 12, marginBottom: 16, flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between' }}>
         <div className="seg-control" style={{ flexWrap: 'wrap' }}>
           {categories.map(cat => (
             <button
@@ -130,12 +153,49 @@ export default function News() {
         </div>
       </div>
 
+      {/* Time Filter Bar */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 24, flexWrap: 'wrap', background: 'rgba(255, 255, 255, 0.02)', padding: '8px 14px', borderRadius: 12, border: '1px solid rgba(255, 255, 255, 0.06)' }}>
+        <span style={{ fontSize: 12, fontWeight: 600, color: 'var(--text-muted)', display: 'flex', alignItems: 'center', gap: 6 }}>
+          <span>⏳</span> Time Filter:
+        </span>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+          {['All Time', 'Last 24h 🔥', 'Last 7 Days 📅', 'Last 30 Days 🗓️'].map(range => (
+            <button
+              key={range}
+              onClick={() => setActiveTimeRange(range)}
+              style={{
+                background: activeTimeRange === range ? 'var(--accent-cs)' : 'rgba(255, 255, 255, 0.05)',
+                color: activeTimeRange === range ? '#ffffff' : 'var(--text-secondary)',
+                border: activeTimeRange === range ? '1px solid var(--accent-cs)' : '1px solid rgba(255, 255, 255, 0.08)',
+                padding: '5px 12px',
+                borderRadius: 8,
+                fontSize: 12,
+                fontWeight: activeTimeRange === range ? 600 : 400,
+                cursor: 'pointer',
+                transition: 'all 0.2s ease',
+              }}
+            >
+              {range}
+            </button>
+          ))}
+        </div>
+      </div>
+
       {/* Feed List */}
       {filtered.length === 0 ? (
         <div className="empty-state">
           <div className="empty-state__icon">📰</div>
           <div className="empty-state__title">No news found</div>
-          <div className="empty-state__desc">Try searching for a different term or switching categories.</div>
+          <div className="empty-state__desc">
+            No articles match your filter in "{activeTimeRange}". Try switching to 'All Time' or another category.
+          </div>
+          <button
+            onClick={() => { setActiveCat('All'); setActiveTimeRange('All Time'); setSearchQuery(''); }}
+            className="btn btn--primary"
+            style={{ marginTop: 16, padding: '8px 16px', fontSize: 13 }}
+          >
+            Reset Filters
+          </button>
         </div>
       ) : (
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(360px, 1fr))', gap: 18 }}>

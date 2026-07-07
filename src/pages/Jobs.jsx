@@ -6,9 +6,31 @@ function formatDeadlineDate(deadline) {
   return deadline || 'Check official portal';
 }
 
+// Check if date string is within the selected time range
+function isWithinTimeRange(dateStr, range) {
+  if (range === 'All Time' || !dateStr) return true;
+  
+  const itemDate = new Date(dateStr + 'T12:00:00');
+  const now = new Date();
+  const diffMs = now - itemDate;
+  const diffDays = diffMs / (1000 * 60 * 60 * 24);
+
+  if (range === 'Last 24h 🔥') {
+    return diffDays <= 1.5 && diffDays >= -1;
+  }
+  if (range === 'Last 7 Days 📅') {
+    return diffDays <= 7.5 && diffDays >= -1;
+  }
+  if (range === 'Last 30 Days 🗓️') {
+    return diffDays <= 30.5 && diffDays >= -1;
+  }
+  return true;
+}
+
 export default function Jobs() {
   const [jobsData, setJobsData] = useState(null);
   const [activeTab, setActiveTab] = useState('psu');
+  const [activeTimeRange, setActiveTimeRange] = useState('All Time');
 
   useEffect(() => {
     fetch('/data/jobs.json')
@@ -25,7 +47,7 @@ export default function Jobs() {
     { key: 'mtech', label: 'M.Tech Admissions', icon: '🎓' },
   ];
 
-  const items = jobsData[activeTab] || [];
+  const items = (jobsData[activeTab] || []).filter(job => isWithinTimeRange(job.date, activeTimeRange));
 
   return (
     <div>
@@ -57,17 +79,45 @@ export default function Jobs() {
         </div>
       </div>
 
-      {/* Tabs */}
-      <div className="seg-control" style={{ marginBottom: 24 }}>
-        {tabs.map(tab => (
-          <button
-            key={tab.key}
-            className={`seg-control__btn ${activeTab === tab.key ? 'active' : ''}`}
-            onClick={() => setActiveTab(tab.key)}
-          >
-            {tab.icon} {tab.label}
-          </button>
-        ))}
+      {/* Tabs & Time Filter */}
+      <div style={{ display: 'flex', gap: 16, marginBottom: 24, flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between' }}>
+        <div className="seg-control" style={{ flexWrap: 'wrap' }}>
+          {tabs.map(tab => (
+            <button
+              key={tab.key}
+              className={`seg-control__btn ${activeTab === tab.key ? 'active' : ''}`}
+              onClick={() => setActiveTab(tab.key)}
+            >
+              {tab.icon} {tab.label}
+            </button>
+          ))}
+        </div>
+
+        {/* Time Filter Bar */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap', background: 'rgba(255, 255, 255, 0.02)', padding: '6px 12px', borderRadius: 12, border: '1px solid rgba(255, 255, 255, 0.06)' }}>
+          <span style={{ fontSize: 12, fontWeight: 600, color: 'var(--text-muted)', display: 'flex', alignItems: 'center', gap: 6 }}>
+            <span>⏳</span> Time:
+          </span>
+          {['All Time', 'Last 24h 🔥', 'Last 7 Days 📅', 'Last 30 Days 🗓️'].map(range => (
+            <button
+              key={range}
+              onClick={() => setActiveTimeRange(range)}
+              style={{
+                background: activeTimeRange === range ? 'var(--accent-cs)' : 'rgba(255, 255, 255, 0.05)',
+                color: activeTimeRange === range ? '#ffffff' : 'var(--text-secondary)',
+                border: activeTimeRange === range ? '1px solid var(--accent-cs)' : '1px solid rgba(255, 255, 255, 0.08)',
+                padding: '5px 12px',
+                borderRadius: 8,
+                fontSize: 12,
+                fontWeight: activeTimeRange === range ? 600 : 400,
+                cursor: 'pointer',
+                transition: 'all 0.2s ease',
+              }}
+            >
+              {range}
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Info Banner */}
@@ -82,8 +132,24 @@ export default function Jobs() {
       </div>
 
       {/* Job Cards Grid */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(360px, 1fr))', gap: 18 }}>
-        {items.map((job, i) => {
+      {items.length === 0 ? (
+        <div className="empty-state">
+          <div className="empty-state__icon">💼</div>
+          <div className="empty-state__title">No opportunities found</div>
+          <div className="empty-state__desc">
+            No opportunities match your filter in "{activeTimeRange}". Try switching to 'All Time' or another category.
+          </div>
+          <button
+            onClick={() => { setActiveTab('psu'); setActiveTimeRange('All Time'); }}
+            className="btn btn--primary"
+            style={{ marginTop: 16, padding: '8px 16px', fontSize: 13 }}
+          >
+            Reset Filters
+          </button>
+        </div>
+      ) : (
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(360px, 1fr))', gap: 18 }}>
+          {items.map((job, i) => {
           return (
             <div key={i} className="card" style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
               {/* JOB STATUS & DEADLINE HEADER */}
@@ -161,7 +227,8 @@ export default function Jobs() {
             </div>
           );
         })}
-      </div>
+        </div>
+      )}
     </div>
   );
 }

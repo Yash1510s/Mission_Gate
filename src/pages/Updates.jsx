@@ -25,8 +25,30 @@ function formatUpdateDate(dateString) {
   return { dayStr, dateStr, agoStr };
 }
 
+// Check if date string is within the selected time range
+function isWithinTimeRange(dateStr, range) {
+  if (range === 'All Time' || !dateStr) return true;
+  
+  const itemDate = new Date(dateStr + 'T12:00:00');
+  const now = new Date();
+  const diffMs = now - itemDate;
+  const diffDays = diffMs / (1000 * 60 * 60 * 24);
+
+  if (range === 'Last 24h 🔥') {
+    return diffDays <= 1.5 && diffDays >= -1;
+  }
+  if (range === 'Last 7 Days 📅') {
+    return diffDays <= 7.5 && diffDays >= -1;
+  }
+  if (range === 'Last 30 Days 🗓️') {
+    return diffDays <= 30.5 && diffDays >= -1;
+  }
+  return true;
+}
+
 export default function Updates() {
   const [newsData, setNewsData] = useState(null);
+  const [activeTimeRange, setActiveTimeRange] = useState('All Time');
 
   useEffect(() => {
     fetch('/data/news.json')
@@ -38,6 +60,7 @@ export default function Updates() {
   if (!newsData) return <div className="empty-state"><div className="animate-pulse">Loading updates...</div></div>;
 
   const { updates, importantDates, examPattern } = newsData;
+  const filteredUpdates = updates.filter(u => isWithinTimeRange(u.date, activeTimeRange));
 
   return (
     <div>
@@ -69,10 +92,54 @@ export default function Updates() {
         </div>
       </div>
 
-      {/* Official Bulletin Cards (With Time, Day, Date on top of every card) */}
-      <h3 style={{ marginBottom: 16, display: 'flex', alignItems: 'center', gap: 8 }}>📢 Official Bulletins & Notifications</h3>
+      {/* Time Filter Bar */}
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, marginBottom: 16, flexWrap: 'wrap' }}>
+        <h3 style={{ margin: 0, display: 'flex', alignItems: 'center', gap: 8 }}>📢 Official Bulletins & Notifications</h3>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap', background: 'rgba(255, 255, 255, 0.02)', padding: '6px 12px', borderRadius: 12, border: '1px solid rgba(255, 255, 255, 0.06)' }}>
+          <span style={{ fontSize: 12, fontWeight: 600, color: 'var(--text-muted)', display: 'flex', alignItems: 'center', gap: 6 }}>
+            <span>⏳</span> Time:
+          </span>
+          {['All Time', 'Last 24h 🔥', 'Last 7 Days 📅', 'Last 30 Days 🗓️'].map(range => (
+            <button
+              key={range}
+              onClick={() => setActiveTimeRange(range)}
+              style={{
+                background: activeTimeRange === range ? 'var(--accent-cs)' : 'rgba(255, 255, 255, 0.05)',
+                color: activeTimeRange === range ? '#ffffff' : 'var(--text-secondary)',
+                border: activeTimeRange === range ? '1px solid var(--accent-cs)' : '1px solid rgba(255, 255, 255, 0.08)',
+                padding: '5px 12px',
+                borderRadius: 8,
+                fontSize: 12,
+                fontWeight: activeTimeRange === range ? 600 : 400,
+                cursor: 'pointer',
+                transition: 'all 0.2s ease',
+              }}
+            >
+              {range}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Official Bulletin Cards */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: 16, marginBottom: 32 }}>
-        {updates.map((update, i) => {
+        {filteredUpdates.length === 0 ? (
+          <div className="empty-state" style={{ marginBottom: 16 }}>
+            <div className="empty-state__icon">📢</div>
+            <div className="empty-state__title">No updates found</div>
+            <div className="empty-state__desc">
+              No official bulletins match your filter in "{activeTimeRange}". Try switching to 'All Time'.
+            </div>
+            <button
+              onClick={() => setActiveTimeRange('All Time')}
+              className="btn btn--primary"
+              style={{ marginTop: 16, padding: '8px 16px', fontSize: 13 }}
+            >
+              Reset Time Filter
+            </button>
+          </div>
+        ) : (
+          filteredUpdates.map((update, i) => {
           const style = typeStyles[update.type] || typeStyles.general;
           const { dayStr, dateStr, agoStr } = formatUpdateDate(update.date);
 
@@ -110,7 +177,8 @@ export default function Updates() {
               </div>
             </div>
           );
-        })}
+        })
+        )}
       </div>
 
       {/* Important Dates Timeline Card */}

@@ -13,7 +13,8 @@
       "cutoffRange": "55-75 (varies by branch)",
       "applyUrl": "https://www.bhel.com/careers",
       "status": "Expected",
-      "deadline": "Usually March-April"
+      "deadline": "Usually March-April",
+      "date": "2026-07-07"
     },
     {
       "org": "ONGC",
@@ -28,7 +29,8 @@
       "cutoffRange": "600-750 (out of 1000)",
       "applyUrl": "https://www.ongcindia.com",
       "status": "Expected",
-      "deadline": "Usually Feb-March"
+      "deadline": "Usually Feb-March",
+      "date": "2026-07-06"
     },
     {
       "org": "IOCL",
@@ -43,7 +45,8 @@
       "cutoffRange": "55-70 (varies by branch)",
       "applyUrl": "https://iocl.com/pages/career",
       "status": "Expected",
-      "deadline": "Usually March-May"
+      "deadline": "Usually March-May",
+      "date": "2026-07-04"
     },
     {
       "org": "NTPC",
@@ -58,7 +61,8 @@
       "cutoffRange": "50-65",
       "applyUrl": "https://www.ntpc.co.in/en/career",
       "status": "Expected",
-      "deadline": "Usually March"
+      "deadline": "Usually March",
+      "date": "2026-07-02"
     },
     {
       "org": "GAIL",
@@ -73,7 +77,8 @@
       "cutoffRange": "60-80",
       "applyUrl": "https://gailonline.com/careers.html",
       "status": "Expected",
-      "deadline": "Usually March"
+      "deadline": "Usually March",
+      "date": "2026-06-25"
     },
     {
       "org": "BPCL",
@@ -88,7 +93,8 @@
       "cutoffRange": "50-65",
       "applyUrl": "https://www.bharatpetroleum.in/careers.aspx",
       "status": "Expected",
-      "deadline": "Usually April"
+      "deadline": "Usually April",
+      "date": "2026-06-18"
     },
     {
       "org": "HPCL",
@@ -103,7 +109,8 @@
       "cutoffRange": "55-70",
       "applyUrl": "https://hindustanpetroleum.com/pages/careers",
       "status": "Expected",
-      "deadline": "Usually March"
+      "deadline": "Usually March",
+      "date": "2026-06-10"
     },
     {
       "org": "BARC",
@@ -118,7 +125,8 @@
       "cutoffRange": "75-85 (percentile)",
       "applyUrl": "https://www.barc.gov.in",
       "status": "Expected",
-      "deadline": "Usually Jan-Feb"
+      "deadline": "Usually Jan-Feb",
+      "date": "2026-05-15"
     }
   ],
   "government": [
@@ -135,7 +143,8 @@
       "cutoffRange": "Varies (limited seats)",
       "applyUrl": "https://afcat.cdac.in/AFCAT/",
       "status": "Announced (2025-26)",
-      "deadline": "Check official notification"
+      "deadline": "Check official notification",
+      "date": "2026-07-07"
     },
     {
       "org": "ISRO",
@@ -150,7 +159,8 @@
       "cutoffRange": "Top 200-500 rank",
       "applyUrl": "https://www.isro.gov.in/Careers.html",
       "status": "Expected",
-      "deadline": "Usually March-April"
+      "deadline": "Usually March-April",
+      "date": "2026-07-03"
     },
     {
       "org": "DRDO",
@@ -165,7 +175,8 @@
       "cutoffRange": "Varies (written exam separate)",
       "applyUrl": "https://www.drdo.gov.in/drdo/English/index.jsp?pg=career.jsp",
       "status": "Expected",
-      "deadline": "Usually Feb"
+      "deadline": "Usually Feb",
+      "date": "2026-06-20"
     }
   ],
   "mtech": [
@@ -182,7 +193,8 @@
       "cutoffRange": "600-800+ (varies by IIT & branch)",
       "applyUrl": "https://coap.iitd.ac.in/",
       "status": "Every Year",
-      "deadline": "March-April (COAP)"
+      "deadline": "March-April (COAP)",
+      "date": "2026-07-07"
     },
     {
       "org": "NITs",
@@ -197,7 +209,8 @@
       "cutoffRange": "400-650 (varies by NIT & branch)",
       "applyUrl": "https://ccmt.admissions.nic.in/",
       "status": "Every Year",
-      "deadline": "April-May (CCMT)"
+      "deadline": "April-May (CCMT)",
+      "date": "2026-07-05"
     },
     {
       "org": "IIITs",
@@ -212,7 +225,8 @@
       "cutoffRange": "350-550",
       "applyUrl": "https://ccmt.admissions.nic.in/",
       "status": "Every Year",
-      "deadline": "April-May (CCMT)"
+      "deadline": "April-May (CCMT)",
+      "date": "2026-06-22"
     }
   ]
 }
