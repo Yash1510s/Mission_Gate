@@ -1,6 +1,21 @@
 {
   "feed": [
     {
+      "id": "item-1784141451957-475",
+      "date": "2026-07-15",
+      "category": "GATE General",
+      "title": "GATE 2027 Official Notification Update: Expected Application Release Date, Eligibility, Fees - Shiksha",
+      "summary": "GATE 2027 Official Notification Update: Expected Application Release Date, Eligibility, Fees Shiksha",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQaExlU1piUzlqTjFyUXFIYjZ3SDFxUGxfTldaUU1XQlRnY2liclpZMThLSlZTX3BiTGx3WmY2dXNsWVI2V2RaM285Y3JCSG9IelRkQ2xhR1piQllETWF4SVdfSS05cFEyX1pudmplZDluc19GYUpzakU0RGxJOGxkY0h3WnBueHo4a0Yyb2J5TXFxczBtNTJSeVBMbHhHdEZ0YXpvUVJLYnlvZ2RWMDRjbHpnLUs3NjlNZkEtdGpZM2Myanc2VkRkNEFJM3JqT3c4Skl5N3JxdllLMkZ6?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
       "id": "item-1783795261790-645",
       "date": "2026-07-11",
       "category": "PSU & Govt",
@@ -739,21 +754,6 @@
         "AICTE",
         "MoE",
         "Scholarship"
-      ],
-      "verified": true
-    },
-    {
-      "id": "item-1783446485094-16",
-      "date": "2026-06-03",
-      "category": "PSU & Govt",
-      "title": "GATE 2027 All Expected PSU & Central Govt Recruitment - PW",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPQkVGajJTSGktRGc5SGlSR2ZFcjFoUlpLYlZvNy12ck0yYVlKZXd2RGV4OEhia2RidW54U1l4RzFoV1lRNnNLNlFkekRjSHE3YU53QTZRVUZOMkRGMHlETDFfdzdpMFVSbDI1OVJvQzY3WFFHSUZlOHJ3dzlDUWVZMnBKdlFvNjVrb0E?oc=5\" tar...",
-      "sourceName": "Official News & Portal Alert",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQkVGajJTSGktRGc5SGlSR2ZFcjFoUlpLYlZvNy12ck0yYVlKZXd2RGV4OEhia2RidW54U1l4RzFoV1lRNnNLNlFkekRjSHE3YU53QTZRVUZOMkRGMHlETDFfdzdpMFVSbDI1OVJvQzY3WFFHSUZlOHJ3dzlDUWVZMnBKdlFvNjVrb0E?oc=5",
-      "tags": [
-        "GATE 2026/2027",
-        "Live Feed",
-        "PSU Jobs"
       ],
       "verified": true
     }
