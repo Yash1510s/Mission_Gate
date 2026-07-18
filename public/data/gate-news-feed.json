@@ -1,6 +1,21 @@
 {
   "feed": [
     {
+      "id": "item-1784378616588-735",
+      "date": "2026-07-16",
+      "category": "GATE General",
+      "title": "Complete Subject-Wise NEET Syllabus 2027 - PW",
+      "summary": "Complete Subject-Wise NEET Syllabus 2027 PW",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1nMWw4ZDlSZEE1a2NTQWNJcmZXY18yT0lYUkNPNGJWS0NSaDN6d1RkMEVkZl9wT3hZVmxodmMyV1VwcWdYbFlXVzM2TjR0LXlnNHR4emM0dw?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
       "id": "item-1784141451957-475",
       "date": "2026-07-15",
       "category": "GATE General",
@@ -738,21 +753,6 @@
         "GATE 2026/2027",
         "Live Feed",
         "Admissions"
-      ],
-      "verified": true
-    },
-    {
-      "id": "item-1783446485094-690",
-      "date": "2026-06-08",
-      "category": "PSU & Govt",
-      "title": "Top 5 Highest Paying PSUs for Civil Engineers After GATE - PW",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQMG1KMDduWXJrQi1TZDZ6MGllUTItZnRHenAwZ1h6Mm5HT3NTQzZSQm9pMU4tUm95UWYydGZEZW0ya2Mtd09qYWU1dXl5M3MzVkdBVTJXWmY1dmpzeGl6WTc5ZEtNVUQ5VmxzXzc3R3ZPdVJjMTlfSGpMMzhBbG9TTXUwaFB4bFB3YjVieVpqeGE?o...",
-      "sourceName": "Official News & Portal Alert",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMG1KMDduWXJrQi1TZDZ6MGllUTItZnRHenAwZ1h6Mm5HT3NTQzZSQm9pMU4tUm95UWYydGZEZW0ya2Mtd09qYWU1dXl5M3MzVkdBVTJXWmY1dmpzeGl6WTc5ZEtNVUQ5VmxzXzc3R3ZPdVJjMTlfSGpMMzhBbG9TTXUwaFB4bFB3YjVieVpqeGE?oc=5",
-      "tags": [
-        "GATE 2026/2027",
-        "Live Feed",
-        "PSU Jobs"
       ],
       "verified": true
     }
