@@ -1,6 +1,36 @@
 {
   "feed": [
     {
+      "id": "item-1784639383598-127",
+      "date": "2026-07-21",
+      "category": "GATE General",
+      "title": "GATE Robotics and Automation Syllabus - Shiksha",
+      "summary": "GATE Robotics and Automation Syllabus Shiksha",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWUNQbzVaSlo0d2VqTkxIT2c5VzRyckNyOWJUZGdzaFZaekxRUjdOY1FrNUpmS0tKZERrWUZYMFpfZGtPUW1PbE5jbjJWTG5NTHRGWkhaUXZEWW1vM1ZWLTNDdUJuM2Y3aHBBRmdLNFF5Tk9MRUFuLUQ2Um5IVzNXQmhfMm1BbU9OU0xVVHRVR01NMkhGTnNGZ3d0UTQ?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1784639383598-523",
+      "date": "2026-07-20",
+      "category": "GATE General",
+      "title": "IIT Madras announces dates, syllabus revision & new paper introduction in Graduate Aptitude Test in Engineering (GATE) 2027 | Indian Institute of Technology Madras - iitm.ac.in",
+      "summary": "IIT Madras announces dates, syllabus revision & new paper introduction in Graduate Aptitude Test in Engineering (GATE) 2027 | Indian Institute of Technology Madras iitm.ac.in",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZlFrU1V1cE9zNE1QSE9JZXJJMEF4alJhaUtWNTUyYXV0S0FIMkQ1UTdiUW1DZnE5TDFuWmJHcnNhQjVTMWpXVU9VekF3UEU2dXlxNTctaXlBWWNKcDkzVGltX1Zoc3g5S09VWGNJZ1gzY3p5bld1MFNNaFpibzdyVzlBQ2NxSUJQa3NNVkQ1WGpiMk5KUF9tV29IdVZpbGcxdFlZZnJmSEJueVNwbGQwaVhHanRfWDdB?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
       "id": "item-1784596799213-166",
       "date": "2026-07-20",
       "category": "GATE General",
@@ -721,37 +751,6 @@
         "GATE 2026/2027",
         "Live Feed",
         "Admissions"
-      ],
-      "verified": true
-    },
-    {
-      "id": "item-1783446481250-426",
-      "date": "2026-06-19",
-      "category": "GATE General",
-      "title": "JEE Main 2027: Exam Date, Syllabus, Pattern, Registration, Eligibility, PYQ - Careers360",
-      "summary": "JEE Main 2027: Exam Date, Sylla...",
-      "sourceName": "Official News & Portal Alert",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBnU0ZEMG5feGE3VmpPNlg4UWt5aTZ5U2s2Z3FUNk1vbEoyUjFTUWM5bkxvQ0VEVHBJNzM3ZUdlcFMtWWhnd1p1bEZuakhmOHdIM2ZNWGZqdWgxNXR6VXlMR2l3UTRGNkhz?oc=5",
-      "tags": [
-        "GATE 2026/2027",
-        "Live Feed",
-        "Admissions"
-      ],
-      "verified": true
-    },
-    {
-      "id": "item-5",
-      "date": "2026-06-18",
-      "category": "PSU & Govt",
-      "title": "ONGC & IOCL Executive Trainee (Through GATE 2026) Shortlist Released",
-      "summary": "Oil and Natural Gas Corporation (ONGC) and Indian Oil (IOCL) have published the interview shortlist for Executive Trainees (Computer Science and Information Technology) based on GATE 2026 scores. Check your login dashboard for interview schedule.",
-      "sourceName": "ONGC India Official Website",
-      "url": "https://www.ongcindia.com/wps/wcm/connect/en/career/recruitment-notice/",
-      "tags": [
-        "ONGC",
-        "IOCL",
-        "PSU Shortlist",
-        "Executive Trainee"
       ],
       "verified": true
     }
