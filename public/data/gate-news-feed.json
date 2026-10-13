@@ -1,6 +1,21 @@
 {
   "feed": [
     {
+      "id": "item-1791928868369-51",
+      "date": "2026-10-12",
+      "category": "GATE General",
+      "title": "GATE 2027 Registration Date Announced by IIT Madras; Apply from Aug 14 - Careers360",
+      "summary": "GATE 2027 Registration Date Announced by IIT Madras; Apply from Aug 14 Careers360",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSms4amZCc2JBOFA2NzJVcl9TaGQyazRaQXozSE5XbEc1TWhTR3VXZERveU1YNmV2VWxwa3pFb3JaN2lYOFQ2MHB5eXZ4RHJiaFpfOHNWbUFod1IxakhrUDMwWTFvTExxcHMwdWx0cW1NSGlFNk1FZFBNSWZrUDhMc2YyRVU5Z2JnY3pKU3g4Nkh5UDV3N1VFRC1sLWUtNFNUcUpQNF82MmtEMHR2ZkNIeHJGQQ?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
       "id": "item-1791896534735-627",
       "date": "2026-10-11",
       "category": "GATE General",
@@ -192,6 +207,21 @@
         "GATE 2026/2027",
         "Live Feed",
         "PSU Jobs"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1791928868369-391",
+      "date": "2026-10-07",
+      "category": "GATE General",
+      "title": "GATE ECE Syllabus 2027: Electronics & Communication Revised PDF, Subject-Wise Weightage - Shiksha.com",
+      "summary": "GATE ECE Syllabus 2027: Electronics & Communication Revised PDF, Subject-Wise Weightage Shiksha.com",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYTlvd2lzX1RIdGIyQk4xcWVxcjJmRE1iTkJQeG1jRTlvNHJXNmN0Q2VXT2w5Rm5SS2VQWTd6eGNOMXJfZ0hUejl4NUFMNkFRR2lsMUNTYjlvZWh0YWZEVjBVUmhBMFF5VU94VkZBSUdBQW1VTFpKTWZrSWE2NEs1cFRhNDJVdnlvR1Vpd1pFaGVMRE5UdVcweFBLdXJxeEZ1UmdxMktLZ0EyLWtOdUZKWXllX1lZRnpU?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
       ],
       "verified": true
     },
@@ -631,6 +661,36 @@
       "verified": true
     },
     {
+      "id": "item-1791928868369-279",
+      "date": "2026-09-28",
+      "category": "GATE General",
+      "title": "GATE 2027 Registration Deadline Extended to October 5; Check New Last Date, Fee and Exam Schedule - Aakash",
+      "summary": "GATE 2027 Registration Deadline Extended to October 5; Check New Last Date, Fee and Exam Schedule Aakash",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVF9hWDkwUzBZOGFnNjR4OVJGQkxGS21aQzRGbzJPNjJKalNHdnN2dVlGLUxXZ2pxZXZKZTk0SmhWR3dXVExTMElXVDBkT2c3OFJPZ054YzQwdEhMZjBOZmtmc0dHZGpFb0dGc2VCZHZuREpQVHRCbXRHal9WWF9tU0FKRERWNXVYZ3FpVHhBUGZjV0VYeVhv?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "Admissions"
+      ],
+      "verified": true
+    },
+    {
+      "id": "item-1791928868780-440",
+      "date": "2026-09-28",
+      "category": "PSU & Govt",
+      "title": "Power Grid Recruitment Through GATE 2027: Dates, Eligibility & Jobs - Careers360",
+      "summary": "Power Grid Recruitment Through GATE 2027: Dates, Eligibility & Jobs Careers360",
+      "sourceName": "Official News & Portal Alert",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVkpMQkZaWTRGZXAtZUxqOHJ5MFVhM0dSRTBTOFR0endWSjhiaEVrUGpMc0h4R3Q0a1RuSkZ5LUNMd0JpNWRsV0FyZW1GZllkR2pCSHlhWlYtbDNNOHFpbWV1UE96V0NDYmhyLUJSdDB5Qkd2X0JqRzhReVVjVFVPZTIxNVd5QQ?oc=5",
+      "tags": [
+        "GATE 2026/2027",
+        "Live Feed",
+        "PSU Jobs"
+      ],
+      "verified": true
+    },
+    {
       "id": "item-1791649651586-508",
       "date": "2026-09-28",
       "category": "GATE General",
@@ -683,66 +743,6 @@
       "summary": "GATE Exam Eligibility 2027: Who can Apply, Attempt, Age-Limit, Qualification Shiksha.com",
       "sourceName": "Official News & Portal Alert",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWTU3Q08zYXpRUVU3cFhPRzVZWGdMQWJ2OU16LWQtVW91RXZVZnhJcDBKMEpmMHdKMVhfR3ZCcVFpdUItenBwZEdSX2Z0SmRpazlTZm10aUxzNEFxMk13OExrS0hTVGZOYVh4cjJDYUVEaDlJaTBPaVBDWUhiRmd3eWl1c2V2QQ?oc=5",
-      "tags": [
-        "GATE 2026/2027",
-        "Live Feed",
-        "Admissions"
-      ],
-      "verified": true
-    },
-    {
-      "id": "item-1790787915041-268",
-      "date": "2026-09-28",
-      "category": "GATE General",
-      "title": "GATE 2026 CSE Marks vs Rank: Cutoff (OUT), Safe Score for IIT and NIT admission - Shiksha.com",
-      "summary": "GATE 2026 CSE Marks vs Rank: Cutoff (OUT), Safe Score for IIT and NIT admission Shiksha.com",
-      "sourceName": "Official News & Portal Alert",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONVU4RUhPTnM4WGRRZFAwV3NKaks5c3h3N0ZmdDI3Z1BITHZPT1FzZEZEd09xVzdYSGxtMVYwektHbWhnRnlZd3NuZExPekh6aXRaMnZQQ0x4QUFKemJRV1hubGNYcXY1RzJCUmIzN2FtcmZiVHNmUVdodVlVdkJsQm9QMnBfb1Fr?oc=5",
-      "tags": [
-        "GATE 2026/2027",
-        "Live Feed",
-        "Admissions"
-      ],
-      "verified": true
-    },
-    {
-      "id": "item-1790787915041-222",
-      "date": "2026-09-28",
-      "category": "GATE General",
-      "title": "GATE 2027 DigiLocker Login and Registration Process: Last Date Extended, Steps - Shiksha.com",
-      "summary": "GATE 2027 DigiLocker Login and Registration Process: Last Date Extended, Steps Shiksha.com",
-      "sourceName": "Official News & Portal Alert",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbWNLYVl0WGxUN1lfQWQ2R3ZxbHdmSWd5Mk1Wd0xSS3hKNkROU25nWkduMmhTWEhub1laSzRQaFlPVTQxbHExa1JCQTV4MDNYTzhDVzNkRU0zOFVKbm5MZFdGZDlHcXAyZEZMN1JCVl9mNU5lOG5uQlJoTkQtUDI2UlZWc2VscnF0S3d4XzNBVXpYSUYzRXM3Mkg1Zw?oc=5",
-      "tags": [
-        "GATE 2026/2027",
-        "Live Feed",
-        "Admissions"
-      ],
-      "verified": true
-    },
-    {
-      "id": "item-1790767653573-147",
-      "date": "2026-09-28",
-      "category": "GATE General",
-      "title": "GATE 2027 CSE Vs GATE DA: Syllabus, Difficulty Level, Career Scope, Job Opportunities - Shiksha.com",
-      "summary": "GATE 2027 CSE Vs GATE DA: Syllabus, Difficulty Level, Career Scope, Job Opportunities Shiksha.com",
-      "sourceName": "Official News & Portal Alert",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYWtMdmJVY01HUEdsUmpxR1ZmNG92YUVUeDhIQnFUdlJCVmpEZTB5eGk4a1RoVkxJRHkySEU2ZkNCN3ZRbnJOQmZlYjh3V1lrNWFmX3pMWFZhYWdLVHl2YzNzN2VrcTlVX3dPRGRsXzJfNkNlRnNWZmN5VjRFQ3FwWnZwVE8?oc=5",
-      "tags": [
-        "GATE 2026/2027",
-        "Live Feed",
-        "Admissions"
-      ],
-      "verified": true
-    },
-    {
-      "id": "item-1790701639112-255",
-      "date": "2026-09-28",
-      "category": "GATE General",
-      "title": "GATE 2027 Registration Last Date LIVE: IIT Madras extends MTech application form filling deadline; check dates - Careers360",
-      "summary": "GATE 2027 Registration Last Date LIVE: IIT Madras extends MTech application form filling deadline; check dates Careers360",
-      "sourceName": "Official News & Portal Alert",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOY3Etem03blpWTG1iWHlZdm1nUWN3U0VLaUlYSFZWNldTZHdYc0RNM3ZDYnRXamZ5eEo0TGtYdGx2b0pwNTRlUkxUdGh3Y1M5SndKUjJybzh4VjE0dFB6QW5zakMteENTT19LWnRSRWUtSjZqTTVseHF1V1UzbFg1RmZ3T1dnU0hPcVJoSXVST3IxSEdzSGdQN2cwMm1UcGVsemlYb2RzakY1M0QzRWxmbzdkeVZQakZyLXRlQ1JPaExFZFJWTjMzZ0k5QllOQmt4bFd5aHlnbUNwRkFfQ0JsU0VQYUt2NWY2YW52NNIB8gFBVV95cUxNXzRMcldPc0JMM18yVVJ6akNTaXZGNWpMYTRuS2RHNUZ0dUx6dUFwa0NvWkoycWxORHpxeWlELVZ6NjlWd0o0MVVVV0tSTlRtYlRSbkZ4WWlfWWE5RGxJaGNPdlcyOVhybW5MQ1l1ZG1PZjlhQWV6dTE5RmRWbXU3bVBrc1dlQ2l0N3N0NVhJVVJsZ3E3d2NiSThCVzNCNjdPY0NaQUxqQ0QwNVQxSzdDNUF0c1loNHZQd0F0QzRieS12WnB5MDNIemFQdV9xdGhHTkNTc29YVTVoSkVPZlM4MFpxZHBjaE56a1ZmbjR3WXFQdw?oc=5",
       "tags": [
         "GATE 2026/2027",
         "Live Feed",
